@@ -1,0 +1,201 @@
+//
+// Copyright 2019 Signal Messenger, LLC
+// SPDX-License-Identifier: AGPL-3.0-only
+//
+
+syntax = "proto3";
+
+// iOS - package name determines class prefix
+package StorageServiceProtos;
+
+message StorageItem {
+  // @required
+  bytes key   = 1;  // Randomly generated 16-byte value
+  // @required
+  bytes value = 2;  // Encrypted serialized bytes
+}
+
+message StorageItems {
+  repeated StorageItem items = 1; // Corresponds to the requested
+                                  // keys that were found
+}
+
+enum OptionalBool {
+  UNSET = 0;
+  TRUE  = 1;
+  FALSE = 2;
+}
+
+message StorageManifest {
+  // @required
+  uint64 version = 1; // Monotonically increasing value
+  // @required
+  bytes  value   = 2; // Encrypted ManifestRecord bytes
+}
+
+message ReadOperation {
+  repeated bytes readKey = 1;
+}
+
+message WriteOperation {
+           StorageManifest manifest   = 1;
+  repeated StorageItem     insertItem = 2;
+  repeated bytes           deleteKey  = 3;
+           bool            deleteAll  = 4;
+}
+
+message ManifestRecord {
+  message Key {
+    enum Type {
+      UNKNOWN = 0;
+      CONTACT = 1;
+      GROUPV1 = 2;
+      GROUPV2 = 3;
+      ACCOUNT = 4;
+      STORY_DISTRIBUTION_LIST = 5;
+    }
+
+    // @required
+    bytes data = 1;
+    // @required
+    Type  type = 2;
+  }
+
+  // @required
+           uint64 version = 1;
+           uint32 sourceDevice = 3;
+  repeated Key    keys    = 2;
+}
+
+message StorageRecord {
+  oneof record {
+    ContactRecord contact = 1;
+    GroupV1Record groupV1 = 2;
+    GroupV2Record groupV2 = 3;
+    AccountRecord account = 4;
+    StoryDistributionListRecord storyDistributionList = 5;
+  }
+}
+
+message ContactRecord {
+  enum IdentityState {
+    DEFAULT    = 0;
+    VERIFIED   = 1;
+    UNVERIFIED = 2;
+  }
+
+  // @trustedMapping
+  string        serviceUuid             = 1;
+  string        serviceE164             = 2;
+  bytes         profileKey              = 3;
+  bytes         identityKey             = 4;
+  IdentityState identityState           = 5;
+  string        givenName               = 6;
+  string        familyName              = 7;
+  string        username                = 8;
+  bool          blocked                 = 9;
+  bool          whitelisted             = 10;
+  bool          archived                = 11;
+  bool          markedUnread            = 12;
+  uint64        mutedUntilTimestamp     = 13;
+  bool          hideStory               = 14;
+  uint64        unregisteredAtTimestamp = 16;
+  string        systemGivenName         = 17;
+  string        systemFamilyName        = 18;
+  string        systemNickname          = 19;
+}
+
+message GroupV1Record {
+  // @required
+  bytes  id                  = 1;
+  bool   blocked             = 2;
+  bool   whitelisted         = 3;
+  bool   archived            = 4;
+  bool   markedUnread        = 5;
+  uint64 mutedUntilTimestamp = 6;
+}
+
+message GroupV2Record {
+  enum StorySendMode {
+    DEFAULT = 0;
+    DISABLED = 1;
+    ENABLED = 2;
+  }
+
+  // @required
+  bytes         masterKey                    = 1;
+  bool          blocked                      = 2;
+  bool          whitelisted                  = 3;
+  bool          archived                     = 4;
+  bool          markedUnread                 = 5;
+  uint64        mutedUntilTimestamp          = 6;
+//bool          dontNotifyForMentionsIfMuted = 7;
+  bool          hideStory                    = 8;
+  StorySendMode storySendMode                = 10;
+}
+
+message AccountRecord {
+  enum PhoneNumberSharingMode {
+    EVERYBODY     = 0;
+    CONTACTS_ONLY = 1;
+    NOBODY        = 2;
+  }
+
+  message PinnedConversation {
+    message Contact {
+      string uuid = 1;
+      string e164 = 2;
+    }
+
+    oneof identifier {
+      Contact contact        = 1;
+      bytes   legacyGroupId  = 3;
+      bytes   groupMasterKey = 4;
+    }
+  }
+
+  message Payments {
+    bool  enabled         = 1;
+    bytes paymentsEntropy = 2;
+  }
+
+           bytes                  profileKey                    = 1;
+           string                 givenName                     = 2;
+           string                 familyName                    = 3;
+           string                 avatarUrl                     = 4;
+           bool                   noteToSelfArchived            = 5;
+           bool                   readReceipts                  = 6;
+           bool                   sealedSenderIndicators        = 7;
+           bool                   typingIndicators              = 8;
+           bool                   proxiedLinkPreviews           = 9;    // Legacy link previews flag
+           bool                   noteToSelfMarkedUnread        = 10;
+           bool                   linkPreviews                  = 11;
+           PhoneNumberSharingMode phoneNumberSharingMode        = 12;
+           bool                   notDiscoverableByPhoneNumber  = 13;
+  repeated PinnedConversation     pinnedConversations           = 14;
+           bool                   preferContactAvatars          = 15;
+           Payments               payments                      = 16;
+           uint32                 universalExpireTimer          = 17;
+           string                 e164                          = 19;
+  repeated string                 preferredReactionEmoji        = 20;
+           bytes                  subscriberID                  = 21;
+           string                 subscriberCurrencyCode        = 22;
+           bool                   displayBadgesOnProfile        = 23;
+           bool                   subscriptionManuallyCancelled = 24;
+           bool                   keepMutedChatsArchived        = 25;
+           bool                   myStoryPrivacyHasBeenSet      = 26; // Removed 'has' prefix on spec definition to avoid name conflict.
+           bool                   viewedOnboardingStory         = 27; // Removed 'has' prefix on spec definition to avoid name conflict.
+           // reserved            deprecatedStoriesDisabled     = 28;
+           bool                   storiesDisabled               = 29;
+           OptionalBool           storyViewReceiptsEnabled      = 30;
+           bool                   readOnboardingStory           = 31;
+}
+
+message StoryDistributionListRecord {
+           bytes  identifier         = 1;
+           string name               = 2;
+  repeated string recipientUuids     = 3;
+           uint64 deletedAtTimestamp = 4;
+           bool   allowsReplies      = 5;
+           bool   isBlockList        = 6;
+}

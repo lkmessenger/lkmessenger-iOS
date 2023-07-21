@@ -1,0 +1,26 @@
+Milliók használják napi szinten a Link Messenger alkalmazást azonnali, ingyenes kommunikációra szerte a világon. Küldj és fogadj nagy felbontású üzeneteket, vegyél részt HD hang/videó hívásokban, fedezd fel az új szolgáltatásokat, amelyek a kapcsolattartást segítik. A Link Messenger fejlett adatvédelmi technológiája mindig aktív, így arra fókuszálhatsz hogy a számodra fontos pillanatokat megoszthasd a számodra fontos emberekkel.
+
+• Mondj bármit – A csúcstechnológiájú végponttól végpontig terjedő titkosítás (a nyílt forrású Link Messenger Protocol™ segítségével) óvja beszélgetéseid biztonságát. Az adatvédelem többé nem csak egy opció, hanem a mód, ahogy a Link Messenger működik. Minden üzenetnél, minden hívásnál, minden esetben.
+
+• Gyorsulj fel – Az üzenetek gyorsan és megbízhatóan kézbesülnek, még lassú hálózatokon is. A Link Messenger korlátozott környezetben működésre optimalizált.
+
+• Légy szabad – A Link Messenger egy 501c3 besorolású, teljesen független, nonprofit szervezet. A fejlesztést hozzád hasonló felhasználók támogatják. Nincs reklám. Nincs követés. Nincs trükk.
+
+• Légy önmagad –  Használd meglévő telefonszámod és címjegyzéked, hogy biztonságosan kommunikálj barátaiddal.
+
+• Beszélj tisztán – Mindegy, hogy a város túlsó végén vagy az óceánon túl, a Link Messenger fejlett audió és videó minősége közelebb hozza a barátokat és a családot.
+
+• Suttogj a sötétben – Kapcsolj a sötét témára, ha zavar a fény.
+
+• Ismerősen hangzik - Válassz egyedi értesítéseket minden kapcsolatodhoz vagy kapcsold ki a hangokat teljesen. Simon & Garfunkel írt egy slágert a csend hangjairól 1964-ben, amit te is megtapasztalhatsz, ha az értesítési hangot "Nincs" állásba kapcsolod.
+
+• Képzeld el - A beépített képszerkesztő lehetővé teszi a küldött fotók nyújtását, vágását, forgatását. Szöveg eszköztár is található benne, így saját szavaidat is hozzáadhatod a meglévő 1000 mellé, amivel a kép többet mond a szónál.
+
+
+Támogatásért, kérdéseivel és további információkért látogasson el ide:
+https://support.linkmessenger.me
+
+Forráskód:
+https://github.com/signalapp
+
+Kövessen minket Twitter-en (@signalapp) és Instagram-on (@signal_app) a legújabb frissítésekért és bejelentésekért.

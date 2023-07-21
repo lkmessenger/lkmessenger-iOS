@@ -1,0 +1,26 @@
+Miljoenen mensen gebruiken Link Messenger elke dag voor gratis en onmiddellijke communicatie, overal ter wereld. Verzend en ontvang berichten met hoge betrouwbaarheid, neem deel aan audio- en video-oproepen in HD en ontdek een groeiende reeks nieuwe functionaliteiten waardoor je op nieuwe manieren met je kennissen kunt communiceren. Signals geavanceerde privacybescherming is altijd ingeschakeld. Zo kun je momenten die er toe doen delen met de mensen die er voor jou toe doen.
+
+• Zeg wat je maar wilt: geavanceerde eind-tot-eind-versleuteling (mogelijk gemaakt door het openbroncode Link Messenger Protocol™) houdt je gesprekken veilig. Privacy is niet optioneel: het is gewoon hoe Link Messenger altijd werkt. Elk bericht, elke oproep, elke keer.
+
+• Ongeëvenaarde snelheid: berichten worden snel en betrouwbaar afgeleverd, zelfs op trage netwerken. Link Messenger is geoptimaliseerd om te blijven werken in de meest beperkte omgevingen.
+
+• Voel je vrij: Link Messenger is een volledig onafhankelijke 501c3-organisatie zonder winstoogmerk. Ontwikkeling wordt ondersteund door gebruikers zoals jij. Geen reclame. Geen volgers. Geen grapje.
+
+• Wees jezelf: je kunt je bestaande telefoonnummer en contactenlijst gebruiken om veilig met je vrienden te communiceren.
+
+• Laat je horen: of je vrienden en familie nou aan de andere kant van de stad of aan de andere kant van de wereld wonen, met de hoogwaardige audio- en videokwaliteit van Link Messenger lijken ze altijd dichtbij.
+
+• Fluister vanuit het duister: schakel het donkere thema in als je weigert het licht te zien.
+
+• Je contacten klinken bekend: kies aangepaste meldingen voor iedere contactpersoon of schakel geluiden volledig uit. Simon & Garfunkel schreven er in 1964 een nummer over, en jij kunt de ‘sound of silence’ wanneer je maar wilt ervaren door ‘Geen’ te kiezen als je geluid voor meldingen.
+
+• Laat je verbeelding spreken: gebruik ingebouwde beeldbewerkingsfuncties zoals tekenen, bijsnijden en spiegelen. Er is zelfs een tekstgereedschap waarmee je nog meer woorden kunt toevoegen aan de duizend woorden die je foto al waard is.
+
+
+Voor hulp, vragen of meer informatie ga je naar:
+https://support.linkmessenger.me
+
+Broncode:
+https://github.com/signalapp
+
+Volg ons op Twitter (@signalapp) en Instagram (@signal_app) voor nieuws en aankondigingen.

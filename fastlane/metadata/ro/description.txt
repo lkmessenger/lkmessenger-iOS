@@ -1,0 +1,26 @@
+Milioane de persoane folosesc Link Messenger în fiecare zi pentru comunicare gratuită și instantanee oriunde în lume. Trimite și primește mesaje de înaltă fidelitate, efectuează apeluri vocale/video HD și explorează un set tot mai mare de funcționalități noi care te ajută să rămâi conectat. Tehnologia avansată de păstrare a confidențialității din Link Messenger este întotdeauna activată, așa că te poți concentra pe împărtășirea momentelor care contează cu oamenii care contează.
+
+• Spune orice – Criptarea integrală de ultimă generație (prin protocolul Link Messenger Protocol™ cu sursă deschisă) îți păstrează conversațiile securizate. Confidențialitatea nu este o opțiune — e pur și simplu modul în care funcționează Link Messenger la fiecare mesaj, fiecare apel, de fiecare dată.
+
+• Rapid – Mesajele sunt transmise rapid și fiabil, chiar și în rețele lente. Link Messenger este optimizat să funcționeze în cele mai restrictive medii posibile.
+
+• Libertate – Link Messenger este o organizație non-profit înființată în baza secțiunii 501c3 și este complet independentă. Dezvoltarea este susținută de utilizatori ca tine. Fără reclame. Fără elemente de urmărire. Pe bune.
+
+• Fii tu însuți – Vei putea folosi numărul de telefon existent și adresa de contacte pentru a comunica în siguranță cu prietenii.
+
+• Vorbește clar – Fie că locuiesc în cealaltă parte a orașului sau peste ocean, calitatea audio și video amplificată din Link Messenger îți ține aproape prietenii și familia.
+
+• Șoapte din umbră – Treci pe tema întunecată dacă nu vrei să vezi lumina.
+
+• Sunete familiare – Alege alerte personalizate pentru fiecare contact sau dezactivează complet sunetele. Simon și Garfunkel au scris un hit despre asta în 1964 și poți trăi sunetul liniștii oricând vrei selectând „Niciunul” pentru tonul de notificări.
+
+• Editare imagini – Folosește funcționalitățile încorporate de editare a imaginilor ca să desenezi, să decupezi și să rotești fotografiile trimise. Imaginile valorează cât 1.000 de cuvinte, dar ai chiar și un instrument de text ca să adaugi și mai multe.
+
+
+Pentru asistență, întrebări sau informații suplimentare, intră pe:
+https://support.linkmessenger.me
+
+Cod-sursă:
+https://github.com/signalapp
+
+Urmărește-ne pe Twitter (@signalapp) și Instagram (@signal_app) pentru toate actualizările și anunțurile cele mai recente.

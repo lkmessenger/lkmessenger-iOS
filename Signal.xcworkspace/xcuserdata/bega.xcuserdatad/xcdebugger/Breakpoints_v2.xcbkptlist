@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "32F10F67-D706-45B5-85BF-502A99BE090C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA781ADC-F854-4D62-ACA5-52C4DD8DDFE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Storage/TSYapDatabaseObject.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FE27DBF-62EF-4D3A-80D9-B645A381F198"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Storage/Database/GRDBDatabaseStorageAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "init(databaseFileUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "784D9AF1-4D52-464C-A438-8356654C4194"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Storage/Database/GRDBDatabaseStorageAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "init(databaseFileUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CED2B31-3931-49E3-B5DB-92E392DF1DAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Storage/Database/GRDBDatabaseStorageAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "init(databaseFileUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01571283-E2D9-4FC5-98BA-6476A8D4CFB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "applicationGroup"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E8B9F8A-E375-4C99-9EEE-D8A3675110C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "TSConstantsProtocol"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FDD48F7-EF85-498B-9D73-7293CBB38AF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "TSConstantsProduction"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF162F67-5A9A-413F-A871-69F34A0A5D64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "TSConstantsStaging"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8806C496-5217-4BF9-AD64-A23AF1ACC507"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "shared"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7044EB52-1642-448E-B5AD-4B9AE3DA823A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Account/TSAccountManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "verifyRegistration(request:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDAD0808-11A3-4816-8F88-17BD9BA687FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "environment"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38D73C2E-103B-422B-83D4-F7FE898F6C80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/TSConstants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "shared"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CDC1245-F64F-4586-89D5-4664B13C9C4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9CDC1245-F64F-4586-89D5-4664B13C9C4E - 533796efb431419f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "235"
+                  endingLineNumber = "235"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "9CDC1245-F64F-4586-89D5-4664B13C9C4E - 44756aabdf9925ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SignalCoreKit.Promise&lt;SignalServiceKit.HTTPResponse&gt; in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "236"
+                  endingLineNumber = "236"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFFDDE45-CDB2-427C-9F07-50D21CFDB84C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ACD3566-6833-4545-9A05-1CB9FAC18978"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9ACD3566-6833-4545-9A05-1CB9FAC18978 - 44756aabdf992528"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SignalCoreKit.Promise&lt;SignalServiceKit.HTTPResponse&gt; in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "238"
+                  endingLineNumber = "238"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "9ACD3566-6833-4545-9A05-1CB9FAC18978 - 61b779289383aba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SDSAnyReadTransaction) -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt; in closure #1 () -&gt; SignalCoreKit.Promise&lt;SignalServiceKit.HTTPResponse&gt; in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "239"
+                  endingLineNumber = "239"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30E8ADE5-E394-4C04-A688-7053B4832387"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30E8ADE5-E394-4C04-A688-7053B4832387 - becca44695a92a4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SignalServiceAddress) -&gt; Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt; in closure #1 (SignalServiceKit.SDSAnyReadTransaction) -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt; in closure #1 () -&gt; SignalCoreKit.Promise&lt;SignalServiceKit.HTTPResponse&gt; in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "30E8ADE5-E394-4C04-A688-7053B4832387 - becca44695a92a4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SignalServiceAddress) -&gt; Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt; in closure #1 (SignalServiceKit.SDSAnyReadTransaction) -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt; in closure #1 () -&gt; SignalCoreKit.Promise&lt;SignalServiceKit.HTTPResponse&gt; in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE1CFD26-354F-49EC-871B-A5767645FC47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04F3CA05-CB28-450A-B6C5-44B5F7B366EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "273"
+            endingLineNumber = "273"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04F3CA05-CB28-450A-B6C5-44B5F7B366EE - 371e83bbe9ad1c84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SDSAnyWriteTransaction) -&gt; () in closure #2 (SignalServiceKit.HTTPResponse) throws -&gt; () in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "04F3CA05-CB28-450A-B6C5-44B5F7B366EE - 371e83bbe9ad1c84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SDSAnyWriteTransaction) -&gt; () in closure #2 (SignalServiceKit.HTTPResponse) throws -&gt; () in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "04F3CA05-CB28-450A-B6C5-44B5F7B366EE - 371e83bbe9ad1c84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SDSAnyWriteTransaction) -&gt; () in closure #2 (SignalServiceKit.HTTPResponse) throws -&gt; () in __C.OWSIdentityManager.batchUpdateIdentityKeys(addresses: Swift.Array&lt;SignalServiceKit.SignalServiceAddress&gt;) -&gt; SignalCoreKit.Promise&lt;()&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "812">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FF48439-4F39-4699-A14E-B823A7CC60FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2376C1C7-B3FD-4775-B034-4EB153CBB788"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37C77B48-CC63-42EF-9FD2-8640A0F2D918"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "batchUpdateIdentityKeys(addresses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D12DE87B-38C1-4ECD-BC86-AC86DCE13495"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "makePromise(request:websocketSupportsRequest:remainingRetryCount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C369B05-5CC4-4924-80AC-4521A5931028"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/test/PerformanceTests/MessageSendingPerformanceTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "makePromise(request:websocketSupportsRequest:remainingRetryCount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95170A9B-8D76-4DD4-8497-7880CC0276DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/RESTNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "makePromise(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70E63D33-E1AB-4ED5-A5EC-19ABF02EE1DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/RESTNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "makePromise(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CA76E7F-2137-40D3-B0B5-90726B215FA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/RESTNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "makePromise(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95AA9841-3813-49AB-A1C9-94CF912C71E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/RESTNetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "-makeRequestSync:completionQueue:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9637CBC0-53E4-4263-AF3B-5CB21EF14332"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/RESTNetworkManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "-makeRequestSync:completionQueue:success:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9637CBC0-53E4-4263-AF3B-5CB21EF14332 - 9653fcad6568a51c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__70-[RESTNetworkManager makeRequestSync:completionQueue:success:failure:]_block_invoke.114"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/RESTNetworkManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "772">
+               </Location>
+               <Location
+                  uuid = "9637CBC0-53E4-4263-AF3B-5CB21EF14332 - edef876d93ca1bc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__70-[RESTNetworkManager makeRequestSync:completionQueue:success:failure:]_block_invoke_3"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/RESTNetworkManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "769D2B79-B585-4EF5-A043-E40F4A100D00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
+            landmarkName = "asNSError"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CF38467-0239-4814-92AB-B53692BE1402"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "391"
+            endingLineNumber = "391"
+            landmarkName = "init(error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C0C1B33-C4F1-4ECB-ADC9-174AC1EF4464"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "forServiceResponse(requestUrl:responseStatus:responseHeaders:responseError:responseData:customRetryAfterDate:customLocalizedDescription:customLocalizedRecoverySuggestion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C0C1B33-C4F1-4ECB-ADC9-174AC1EF4464 - 3513a8df2ac98651"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SignalServiceKit.OWSHTTPError.forServiceResponse(requestUrl: Foundation.URL, responseStatus: Swift.Int, responseHeaders: SignalServiceKit.OWSHttpHeaders, responseError: Swift.Optional&lt;Swift.Error&gt;, responseData: Swift.Optional&lt;Foundation.Data&gt;, customRetryAfterDate: Swift.Optional&lt;Foundation.Date&gt;, customLocalizedDescription: Swift.Optional&lt;Swift.String&gt;, customLocalizedRecoverySuggestion: Swift.Optional&lt;Swift.String&gt;) -&gt; SignalServiceKit.OWSHTTPError"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "8C0C1B33-C4F1-4ECB-ADC9-174AC1EF4464 - 3513a8df2ac98651"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SignalServiceKit.OWSHTTPError.forServiceResponse(requestUrl: Foundation.URL, responseStatus: Swift.Int, responseHeaders: SignalServiceKit.OWSHttpHeaders, responseError: Swift.Optional&lt;Swift.Error&gt;, responseData: Swift.Optional&lt;Foundation.Data&gt;, customRetryAfterDate: Swift.Optional&lt;Foundation.Date&gt;, customLocalizedDescription: Swift.Optional&lt;Swift.String&gt;, customLocalizedRecoverySuggestion: Swift.Optional&lt;Swift.String&gt;) -&gt; SignalServiceKit.OWSHTTPError"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80C9DF7F-4D36-4829-8068-76B775300824"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "errorUserInfo"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "80C9DF7F-4D36-4829-8068-76B775300824 - c098aa675c28fb46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.OWSHTTPError.errorUserInfo.getter : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "80C9DF7F-4D36-4829-8068-76B775300824 - c098aa675c28fb46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.OWSHTTPError.errorUserInfo.getter : Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAFA753D-4FCC-40FC-A21B-A36D61942324"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "responseError"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DAFA753D-4FCC-40FC-A21B-A36D61942324 - 9d5b28a081813997"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.OWSHTTPError.responseError.getter : Swift.Optional&lt;Swift.Error&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "DAFA753D-4FCC-40FC-A21B-A36D61942324 - 9d5b28a081813997"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.OWSHTTPError.responseError.getter : Swift.Optional&lt;Swift.Error&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C606353-7094-4472-A4BC-2A25D2367CA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "responseBodyData"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5C606353-7094-4472-A4BC-2A25D2367CA5 - 1dd2ec40122f303d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.OWSHTTPError.responseBodyData.getter : Swift.Optional&lt;Foundation.Data&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "5C606353-7094-4472-A4BC-2A25D2367CA5 - 1dd2ec40122f303d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.OWSHTTPError.responseBodyData.getter : Swift.Optional&lt;Foundation.Data&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E24D921-A8BD-4190-B96C-60D9ECD71D4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "build(requestUrl:httpUrlResponse:bodyData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AC10531-39DA-404C-B8D1-B01B122B6826"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "355"
+            endingLineNumber = "355"
+            landmarkName = "responseBodyString"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3AC10531-39DA-404C-B8D1-B01B122B6826 - a2e589d1e2fc5103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.HTTPResponseImpl.responseBodyString.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "356"
+                  endingLineNumber = "356"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "3AC10531-39DA-404C-B8D1-B01B122B6826 - a2e589d1e2fc5120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.HTTPResponseImpl.responseBodyString.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "355"
+                  endingLineNumber = "355"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "3AC10531-39DA-404C-B8D1-B01B122B6826 - a2e589d1e2fc5120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.HTTPResponseImpl.responseBodyString.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "355"
+                  endingLineNumber = "355"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDCEF44A-0AD7-4D04-9C3A-D96C3FDA66CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/WebSockets/OWSWebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "434"
+            endingLineNumber = "434"
+            landmarkName = "processWebSocketResponseMessage(_:currentWebSocket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26508EFD-2CD1-4504-B7BA-D9162411206A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/WebSockets/OWSWebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1311"
+            endingLineNumber = "1311"
+            landmarkName = "didFail(responseStatus:responseHeaders:responseError:responseData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "715CB9DD-9C2C-4A5E-B03C-01DD242EB120"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/WebSockets/OWSWebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "432"
+            endingLineNumber = "432"
+            landmarkName = "processWebSocketResponseMessage(_:currentWebSocket:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "379BDC4D-9D46-4BA6-8DB6-82AE010B35C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "buildServiceError(request:requestUrl:responseStatus:responseHeaders:responseError:responseData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "832CAEF3-AF8E-4EDB-8BA2-3C89D1FE12E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/WebSockets/OWSWebSocket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1315"
+            endingLineNumber = "1315"
+            landmarkName = "didFail(responseStatus:responseHeaders:responseError:responseData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D291B36-818B-457C-AE53-49BE94FB930B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "forServiceResponse(requestUrl:responseStatus:responseHeaders:responseError:responseData:customRetryAfterDate:customLocalizedDescription:customLocalizedRecoverySuggestion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D291B36-818B-457C-AE53-49BE94FB930B - 3513a8df2ac98697"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SignalServiceKit.OWSHTTPError.forServiceResponse(requestUrl: Foundation.URL, responseStatus: Swift.Int, responseHeaders: SignalServiceKit.OWSHttpHeaders, responseError: Swift.Optional&lt;Swift.Error&gt;, responseData: Swift.Optional&lt;Foundation.Data&gt;, customRetryAfterDate: Swift.Optional&lt;Foundation.Date&gt;, customLocalizedDescription: Swift.Optional&lt;Swift.String&gt;, customLocalizedRecoverySuggestion: Swift.Optional&lt;Swift.String&gt;) -&gt; SignalServiceKit.OWSHTTPError"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "7D291B36-818B-457C-AE53-49BE94FB930B - 3513a8df2ac986f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SignalServiceKit.OWSHTTPError.forServiceResponse(requestUrl: Foundation.URL, responseStatus: Swift.Int, responseHeaders: SignalServiceKit.OWSHttpHeaders, responseError: Swift.Optional&lt;Swift.Error&gt;, responseData: Swift.Optional&lt;Foundation.Data&gt;, customRetryAfterDate: Swift.Optional&lt;Foundation.Date&gt;, customLocalizedDescription: Swift.Optional&lt;Swift.String&gt;, customLocalizedRecoverySuggestion: Swift.Optional&lt;Swift.String&gt;) -&gt; SignalServiceKit.OWSHTTPError"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "849E91FC-55C8-4AE0-A69B-BE6976C13282"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Network/API/HTTPEntities.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "forServiceResponse(requestUrl:responseStatus:responseHeaders:responseError:responseData:customRetryAfterDate:customLocalizedDescription:customLocalizedRecoverySuggestion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "849E91FC-55C8-4AE0-A69B-BE6976C13282 - 3513a8df2ac98697"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SignalServiceKit.OWSHTTPError.forServiceResponse(requestUrl: Foundation.URL, responseStatus: Swift.Int, responseHeaders: SignalServiceKit.OWSHttpHeaders, responseError: Swift.Optional&lt;Swift.Error&gt;, responseData: Swift.Optional&lt;Foundation.Data&gt;, customRetryAfterDate: Swift.Optional&lt;Foundation.Date&gt;, customLocalizedDescription: Swift.Optional&lt;Swift.String&gt;, customLocalizedRecoverySuggestion: Swift.Optional&lt;Swift.String&gt;) -&gt; SignalServiceKit.OWSHTTPError"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "849E91FC-55C8-4AE0-A69B-BE6976C13282 - 3513a8df2ac98697"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SignalServiceKit.OWSHTTPError.forServiceResponse(requestUrl: Foundation.URL, responseStatus: Swift.Int, responseHeaders: SignalServiceKit.OWSHttpHeaders, responseError: Swift.Optional&lt;Swift.Error&gt;, responseData: Swift.Optional&lt;Foundation.Data&gt;, customRetryAfterDate: Swift.Optional&lt;Foundation.Date&gt;, customLocalizedDescription: Swift.Optional&lt;Swift.String&gt;, customLocalizedRecoverySuggestion: Swift.Optional&lt;Swift.String&gt;) -&gt; SignalServiceKit.OWSHTTPError"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Network/API/HTTPEntities.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B4ED6C0-AE60-4661-8EAB-33F835151670"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/OWSIdentityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "description"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B503172-7F5F-4BC7-84EB-539FE5975DCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalUI/ViewControllers/ConversationPicker/ConversationPicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1355"
+            endingLineNumber = "1355"
+            landmarkName = "add(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC3FA0DD-25D4-4A6A-937F-AE429CDE8CA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/SignalCoreKit/SignalCoreKit/src/Promises/Thenable+Timeout.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "timeout(seconds:ticksWhileSuspended:description:timeoutErrorBlock:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "214B7A56-2547-4632-8DDF-A4E1BF361933"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/environment/PushRegistrationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "registerForVanillaPushToken(forceRotation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98684842-AA5A-437C-8BD5-9C3ABB79756B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/environment/PushRegistrationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "registerForVanillaPushToken(forceRotation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98684842-AA5A-437C-8BD5-9C3ABB79756B - 7b1c57054a191b3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SignalCoreKit.Promise&lt;Foundation.Data&gt; in Signal.PushRegistrationManager.registerForVanillaPushToken(forceRotation: Swift.Bool) -&gt; SignalCoreKit.Promise&lt;Swift.String&gt;"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/environment/PushRegistrationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "98684842-AA5A-437C-8BD5-9C3ABB79756B - f5d9b2f6925ea0af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Error in closure #2 () -&gt; SignalCoreKit.Promise&lt;Foundation.Data&gt; in Signal.PushRegistrationManager.registerForVanillaPushToken(forceRotation: Swift.Bool) -&gt; SignalCoreKit.Promise&lt;Swift.String&gt;"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/environment/PushRegistrationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BB5FAAA-2E60-4FCC-BF99-9145C5595F1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/environment/PushRegistrationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "353"
+            endingLineNumber = "353"
+            landmarkName = "registerForVanillaPushToken(forceRotation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "742DBF30-60DA-499C-A1D4-0324C1688B00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/environment/PushRegistrationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
+            landmarkName = "registerForVanillaPushToken(forceRotation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFD710B1-619B-4B72-B1E6-BF35EC5637B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/environment/PushRegistrationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "351"
+            endingLineNumber = "351"
+            landmarkName = "registerForVanillaPushToken(forceRotation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D72848BD-57CD-4BB8-84D9-FD95E0810608"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "didTapDone()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D72848BD-57CD-4BB8-84D9-FD95E0810608 - 32d49cce547c649"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SignalServiceKit.HTTPResponse) -&gt; () in closure #1 (SignalUI.ModalActivityIndicatorViewController) -&gt; () in Signal.UsernameViewController.didTapDone() -&gt; ()"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "D72848BD-57CD-4BB8-84D9-FD95E0810608 - 543b27e96f642b67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SDSAnyWriteTransaction) -&gt; () in closure #2 (SignalServiceKit.HTTPResponse) -&gt; () in closure #1 (SignalUI.ModalActivityIndicatorViewController) -&gt; () in Signal.UsernameViewController.didTapDone() -&gt; ()"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1A85EE9-9D48-4406-AD9C-88DDFF1E6CF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "didTapDone()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1A85EE9-9D48-4406-AD9C-88DDFF1E6CF1 - 4ba296a269bbaff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Error) -&gt; () in closure #1 (SignalUI.ModalActivityIndicatorViewController) -&gt; () in Signal.UsernameViewController.didTapDone() -&gt; ()"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "E1A85EE9-9D48-4406-AD9C-88DDFF1E6CF1 - 930e117cbfd968e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #3 (Swift.Error) -&gt; () in closure #1 (SignalUI.ModalActivityIndicatorViewController) -&gt; () in Signal.UsernameViewController.didTapDone() -&gt; ()"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CE8ED17-1E2E-4E93-B2EC-389F45D2C2E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "didTapDone()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11C4B2C5-3BD7-4CAE-AD77-A349989597EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "didTapDone()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "11C4B2C5-3BD7-4CAE-AD77-A349989597EC - 32d49cce547c6c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SignalServiceKit.HTTPResponse) -&gt; () in closure #1 (SignalUI.ModalActivityIndicatorViewController) -&gt; () in Signal.UsernameViewController.didTapDone() -&gt; ()"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "11C4B2C5-3BD7-4CAE-AD77-A349989597EC - 543b27e96f642beb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.SDSAnyWriteTransaction) -&gt; () in closure #2 (SignalServiceKit.HTTPResponse) -&gt; () in closure #1 (SignalUI.ModalActivityIndicatorViewController) -&gt; () in Signal.UsernameViewController.didTapDone() -&gt; ()"
+                  moduleName = "Signal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2A87588-28F2-4B81-BF65-013F1D7C9B4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "didTapDone()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "629F80EB-CAC1-4022-AD90-D5913663D6F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Signal/src/ViewControllers/AppSettings/Profile/UsernameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "didTapDone()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "374BC521-19A3-461D-854A-FCF37189B4D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Util/RemoteConfigManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "797"
+            endingLineNumber = "797"
+            landmarkName = "checkClientExpiration(valueFlags:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90D602BF-7E05-4AF0-8C50-87F31F688A00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Util/RemoteConfigManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "812"
+            endingLineNumber = "812"
+            landmarkName = "checkClientExpiration(valueFlags:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7557B1A-8DA3-4157-8CDA-518F2E1D8E7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Util/RemoteConfigManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "799"
+            endingLineNumber = "799"
+            landmarkName = "checkClientExpiration(valueFlags:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7557B1A-8DA3-4157-8CDA-518F2E1D8E7D - 5ac47ac50458369e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "$defer() -&gt; ()"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Util/RemoteConfigManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "D7557B1A-8DA3-4157-8CDA-518F2E1D8E7D - 5ac47ac50458369e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "$defer() -&gt; ()"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Util/RemoteConfigManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61E76B5C-39AC-4482-8D44-0ED75AE73DEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Util/RemoteConfigManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "827"
+            endingLineNumber = "827"
+            landmarkName = "checkClientExpiration(valueFlags:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DB21869-C250-4AF5-AC55-639FFED38C71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Util/RemoteConfigManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "829"
+            endingLineNumber = "829"
+            landmarkName = "checkClientExpiration(valueFlags:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3DB21869-C250-4AF5-AC55-639FFED38C71 - 3d9efa177ddf3137"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignalServiceKit.ServiceRemoteConfigManager.checkClientExpiration(valueFlags: Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; ()"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Util/RemoteConfigManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "829"
+                  endingLineNumber = "829"
+                  offsetFromSymbolStart = "1184">
+               </Location>
+               <Location
+                  uuid = "3DB21869-C250-4AF5-AC55-639FFED38C71 - f832f9631c095fd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SignalServiceKit.ServiceRemoteConfigManager.DecodedMinimumVersion) -&gt; Swift.Optional&lt;SignalServiceKit.ServiceRemoteConfigManager.MinimumVersion&gt; in SignalServiceKit.ServiceRemoteConfigManager.checkClientExpiration(valueFlags: Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; ()"
+                  moduleName = "SignalServiceKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bega/AndroidStudioProjects/signal/SignalServiceKit/src/Util/RemoteConfigManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "834"
+                  endingLineNumber = "834"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "624BC585-82D1-4429-BC27-91E09A53D2CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/Stickers/CDNDownloadOperation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "handleDownloadProgress(task:progress:future:maxDownloadSize:hasCheckedContentLength:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB395107-40D5-4080-9991-D78B45EE2810"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignalServiceKit/src/Messages/Stickers/CDNDownloadOperation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "handleDownloadProgress(task:progress:future:maxDownloadSize:hasCheckedContentLength:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

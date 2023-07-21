@@ -1,0 +1,39 @@
+excluded:
+- Pods
+- ThirdParty
+- SignalServiceKit/src/Protos/Generated
+# SwiftLint has trouble with these files. See <https://github.com/realm/SwiftLint/issues/3988>.
+- Signal/src/util/Emoji/Emoji+SkinTones.swift
+- Signal/src/util/Emoji/EmojiWithSkinTones+String.swift
+disabled_rules:
+- block_based_kvo
+- cyclomatic_complexity
+- file_length
+- for_where
+- force_cast
+- force_try
+- function_body_length
+- function_parameter_count
+- identifier_name
+- line_length
+- multiple_closures_with_trailing_closure
+- nesting
+- notification_center_detachment
+- todo
+- type_body_length
+- unused_closure_parameter
+opt_in_rules:
+- attributes
+attributes:
+  always_on_line_above: ["@objc", "@nonobjc"]
+inclusive_language:
+  override_allowed_terms: ["master", "whitelist"]
+large_tuple:
+  warning: 4
+  error: 4
+type_name:
+  max_length:
+    warning: 500
+    error: 500
+  excluded:
+  - Id

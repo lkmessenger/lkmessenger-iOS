@@ -1,0 +1,26 @@
+Millioner af mennesker bruger Link Messenger hver dag til gratis og øjeblikkelig kommunikation overalt i verden. Send og modtag beskeder i høj kvalitet, deltag i tale/videoopkald i HD, og udforsk et voksende sæt af nye funktioner, der hjælper dig med at holde kontakten. Signals avancerede teknologi til beskyttelse af privatsfæren er altid aktiveret, så du kan fokusere på at dele de øjeblikke, der betyder noget, med de mennesker, der betyder noget for dig.
+
+• Sig hvad som helst - Avanceret end-to-end kryptering (drevet af open source Link Messenger Protocol™) holder dine samtaler private. Privatliv er ikke en valgfri indstilling - det er selve måden, Link Messenger fungerer på. Hver besked, hvert opkald, hver gang.
+
+• Sæt fart på - Beskeder leveres hurtigt og pålideligt, selv på langsomme netværk. Link Messenger er optimeret til at fungere under de mest restriktive betingelser.
+
+• Føl dig fri - Link Messenger er en fuldstændig uafhængig 501c3-non-profit. Udviklingen støttes af brugere som dig. Ingen reklamer. Ingen trackere. Ingen spøg.
+
+• Vær dig selv - Du kan bruge dit eksisterende telefonnummer og adressebog til at kommunikere sikkert med dine venner.
+
+• Tal frit - Uanset om de bor på tværs af byen eller på den anden side af kloden, vil Signals forbedrede lyd- og videokvalitet få dine venner og familie til at føles tættere på.
+
+• Hvisk i skyggerne - Skift til det mørke tema, hvis du ikke vil blændes af lyset.
+
+• Velkendt lyd - Vælg tilpassede notifikationer for hver kontaktperson, eller deaktiver lyde helt. Simon & Garfunkel skrev en hit-sang om den i 1964, og du kan opleve lyden af tavshed, ved at vælge “Ingen” som notifikations-ringetone.
+
+• Slip din kreativitet løs - Brug de indbyggede billedredigeringsfunktioner til at tegne, beskære og vende dine udgående billeder. Der er endda et tekstværktøj, så du kan tilføje flere ord til de 1.000, som dit billede allerede er værd.
+
+
+For support, spørgsmål eller mere information, kan du besøge:
+https://support.linkmessenger.me
+
+Kildekode:
+https://github.com/signalapp
+
+Følg os på Twitter (@signalapp) og Instagram (@signal_app) - Få de seneste opdateringer og annonceringer.

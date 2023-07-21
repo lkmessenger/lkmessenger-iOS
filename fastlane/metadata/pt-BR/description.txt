@@ -1,0 +1,26 @@
+Milhões de pessoas usam o Link Messenger todos os dias para a comunicação gratuita e instantânea em qualquer lugar do mundo. Envie e receba mensagens em alta fidelidade, participe em chamadas de voz/vídeo em HD, e explore um crescente conjunto de novos recursos que lhe ajudam a estar conectado. A tecnologia avançada de preservação da privacidade do Link Messenger está sempre ativada, portanto você pode focar em compartilhar os momentos que importam com as pessoas que lhe são importantes.
+
+• Diga o que quiser – A criptografia ponta a ponta de última geração (desenvolvida pelo Link Messenger Protocol™ de código aberto) mantém suas conversas seguras. A privacidade não é um modo opcional — é apenas o modo que o Link Messenger funciona. Cada mensagem, cada chamada, a todo momento.
+
+• Vá rápido – As mensagens são entregues de forma rápida e confiável, mesmo em rede lentas. O Link Messenger está otimizado para operar no ambiente mais limitado possível.
+
+• Sinta-se livre – A Link Messenger é uma organização sem fins lucrativos 501c3 completamente independente. O desenvolvimento é suportado por usuários como você. Sem publicidade. Sem rastreadores. Sem brincadeira.
+
+• Seja você mesmo – Você pode usar seu número de telefone e agenda de contatos existentes para se comunicar com segurança com seus amigos.
+
+• Fale mais alto – Se eles moram do outro lado da cidade ou do oceano, a qualidade aprimorada de áudio e vídeo do Link Messenger fará com que seus amigos e familiares pareçam estar mais próximos.
+
+• Sussurre nas sombras – Mude para o tema escuro se você se recusa a ver a luz.
+
+• Pareça familiar – Escolha alertas personalizados para cada contato ou desative completamente os sons. Simon & Garfunkel compuseram uma canção de sucesso sobre isso em 1964, e você pode experimentar o som do silêncio sempre que desejar escolher "Nenhum" como seu toque de notificação.
+
+• Prepare uma imagem – Use os recursos integrados de edição de imagem para esticar, recortar e inverter as imagens que irá enviar. Há até uma ferramenta de texto para que você possa adicionar mais palavras além das 1.000 que a sua imagem já vale.
+
+
+Para suporte técnico, perguntas ou mais informações, acesse:
+https://support.linkmessenger.me
+
+Código-fonte:
+https://github.com/signalapp
+
+Siga-nos no Twitter (@signalapp) e Instagram (@signal_app) para todas as atualizações e avisos mais recentes.

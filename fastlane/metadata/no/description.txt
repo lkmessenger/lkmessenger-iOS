@@ -1,0 +1,26 @@
+Millioner av mennesker bruker Link Messenger gratis hver eneste dag, og kommuniserer uavhengig av hvor de befinner seg i verden. Send og motta høyoppløselige meldinger, delta i HD-lyd og videosamtaler, og utforsk et økende antall new egenskaper som vil hjelpe deg forbli tilkoblet omverden. Signal's avanserte personvern bevarende teknologi er alltid skrudd på, så du kan fokusere på å dele øyeblikkene som betyr noe med de som betyr noe for deg.
+
+• Si hva som helst - Toppmoderne kryptering (drevet av åpen kildekode-prosjektet Link Messenger Protocol™) holder samtalene dine sikre. Personvern er ikke en alternativ modus  — Det er bare sånn Link Messenger fungerer. Hver melding, hver samtale, hver gang.
+
+• Gå fort – Meldinger er levert raskt og pålitelig, til og med på trege internettlinjer. Link Messenger er optimalisert for å fungere i de mest begrensede omgivelser tenkelig.
+
+• Føl deg fri – Link Messenger er en uavhengig 501c3 nonprofit-organisasjon. Utviklingen er støttet av brukere som deg. Ingen reklame. Ingen sporing. Ingen spøk.
+
+• Vær deg selv – Du kan bruke eksisterende telefonnummer og kontaktliste til å sikkert kommunisere med vennene dine.
+
+• Snakk ut – Enten de bor på andre siden av byen, eller på andre siden av havet, Signal's forbedrede lyd og bildekvalitet vil gi deg følelsen av at familie og venner føles nærmere.
+
+• Hvisk i skyggene  – Bytt til mørkt tema om du nekter å se lyset.
+
+• Høres kjent ut – Velg mellom forskjellige varsler for hver kontakt, eller skru av støy helt. Simon & Garfunkel skrev en sang om det i 1964, og du kan få oppleve lyden av stillhet når du vil ved å velge «Ingen» som din varslingslyd.
+
+• Se for deg dette – Bruk de innebygde bilderedigerings-funksjonene til å tegne, beskjære eller flippe bildene du sender. Det er til og med et tekstverktøy der du kan legge flere ord til bildene dine som allerede er verdt 1000 ord fra før.
+
+
+For brukerstøtte, spørsmål eller mer informasjon, vennligst besøk:
+https://support.linkmessenger.me
+
+Kildekode:
+https://github.com/signalapp
+
+Følg oss på Twitter (@signalapp) og Instagram (@signal_app) for de siste oppdateringene og kunngjøringene.

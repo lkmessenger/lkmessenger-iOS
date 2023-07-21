@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link heeft ‘Apple Music’ nodig om mediabijlagen af te kunnen spelen.";
+NSCameraUsageDescription = "Link gebruikt je camera om foto's te maken en om video-oproepen mogelijk te maken.";
+NSContactsUsageDescription = "Link gebruikt je contactenlijst om personen te vinden die je kent. Je contacten worden niet opgeslagen op de server.";
+NSFaceIDUsageDescription = "Links appvergrendeling maakt gebruik van ‘Face ID’.";
+NSLocationWhenInUseUsageDescription = "Link heeft toegang tot je locatie nodig zodat je je huidige locatie kunt delen.";
+NSMicrophoneUsageDescription = "Link heeft toestemming nodig om je microfoon te gebruiken, om audio- en video-oproepen te kunnen maken en om spraakberichten op te kunnen nemen.";
+NSPhotoLibraryAddUsageDescription = "Link zal foto's opslaan naar je fotobibliotheek.";
+NSPhotoLibraryUsageDescription = "Link laat je kiezen welke foto's uit je fotobibliotheek je wilt verzenden.";
+NSLocalNetworkUsageDescription = "Link gebruikt het lokale netwerk om het mogelijk te maken je gegevens rechtstreeks naar een nieuwe telefoon over te zetten. Het lokale netwerk zal niet worden gebruikt totdat je zelf een overdracht naar een nieuwe telefoon te starten initieert.";

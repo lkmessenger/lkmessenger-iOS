@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link benötigt Zugriff auf Apple Music, um Medienanhänge wiederzugeben zu können.";
+NSCameraUsageDescription = "Link verwendet deine Kamera für Fotoaufnahmen und Videoanrufe.";
+NSContactsUsageDescription = "Link verwendet deine Kontakte, um dir bekannte Benutzer zu finden. Deine Kontakte werden nicht auf dem Server gespeichert.";
+NSFaceIDUsageDescription = "Links Bildschirmsperre verwendet Face ID.";
+NSLocationWhenInUseUsageDescription = "Link benötigt Zugriff auf deine Standortdaten, um deinen Standort teilen zu können.";
+NSMicrophoneUsageDescription = "Link benötigt Zugriff auf dein Mikrofon für das Tätigen und Empfangen von Anrufen sowie zum Aufnehmen von Sprachnachrichten.";
+NSPhotoLibraryAddUsageDescription = "Link speichert Fotos in deine Fotogalerie.";
+NSPhotoLibraryUsageDescription = "Link lässt dich die zu versendenden Fotos aus deiner Fotogalerie auswählen.";
+NSLocalNetworkUsageDescription = "Link verwendet das lokale Netzwerk, um dein Benutzerkonto direkt auf ein neues Mobiltelefon zu übertragen. Es wird nur dann verwendet, wenn du ausdrücklich eine Übertragung auf ein neues Gerät einleitest.";

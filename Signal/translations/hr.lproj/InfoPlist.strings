@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link treba koristiti Apple Music za reprodukciju medijskih privitaka.";
+NSCameraUsageDescription = "Link koristi vašu kameru za snimanje fotografija i za videopozive.";
+NSContactsUsageDescription = "Link koristi vaše kontakte za pronalaženje korisnika koje poznajete. Ne spremamo vaše kontakte na poslužitelju.";
+NSFaceIDUsageDescription = "Zaključavanje zaslona za Link Messenger koristi Face ID.";
+NSLocationWhenInUseUsageDescription = "Link zahtijeva pristup vašoj lokaciji kako bi se dijelila vaša trenutna lokacija.";
+NSMicrophoneUsageDescription = "Link zahtijeva pristup vašem mikrofonu za upućivanje i primanje telefonskih poziva kao i za snimanje glasovnih poruka.";
+NSPhotoLibraryAddUsageDescription = "Link će fotografije spremiti u vašu galeriju.";
+NSPhotoLibraryUsageDescription = "Link će vam omogućiti da odaberete koje fotografije iz svoje galerije želite poslati.";
+NSLocalNetworkUsageDescription = "Link koristi lokalnu mrežu kako bi vam omogućio izravan prijenos računa na novi telefon. Neće se koristiti osim ako izričito ne odlučite pokrenuti prijenos na novi uređaj.";

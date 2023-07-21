@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Το Link Messenger πρέπει να χρησιμοποιήσει το Apple Music για να αναπαράξει συνημμένα πολυμέσα.";
+NSCameraUsageDescription = "Το Link Messenger χρησιμοποιεί την κάμερά σου για φωτογραφίες και βιντεοκλήσεις.";
+NSContactsUsageDescription = "Το Link Messenger χρησιμοποιεί τις επαφές σου για να βρει χρήστες που γνωρίζεις. Δεν αποθηκεύουμε τις επαφές σου στο server.";
+NSFaceIDUsageDescription = "Το Κλείδωμα Οθόνης του Link Messenger χρησιμοποιεί το Face ID.";
+NSLocationWhenInUseUsageDescription = "Το Link Messenger χρειάζεται πρόσβαση στην τοποθεσία σου για να μοιραστεί την τρέχουσα τοποθεσία σου.";
+NSMicrophoneUsageDescription = "Το Link Messenger χρειάζεται πρόσβαση στο μικρόφωνό σου για να κάνει και λάβει τηλεφωνικές κλήσεις και να ηχογραφήσει ηχητικά μηνύματα.";
+NSPhotoLibraryAddUsageDescription = "Το Link Messenger θα αποθηκεύσει φωτογραφίες στη βιβλιοθήκη σου.";
+NSPhotoLibraryUsageDescription = "Το Link Messenger θα σε αφήσει να επιλέξεις ποιες φωτογραφίες θα στείλεις από τη βιβλιοθήκη σου.";
+NSLocalNetworkUsageDescription = "Το Link Messenger χρησιμοποιεί το τοπικό δίκτυο για να σου επιτρέψει να μεταφέρεις τον λογαριασμό σου απ' ευθείας σε μια νέα συσκευή. Αυτό δεν θα χρησιμοποιηθεί εκτός αν συγκεκριμένα επιλέξεις να ξεκινήσεις τη μεταφορά σε νέα συσκευή.";

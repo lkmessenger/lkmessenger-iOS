@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACCESSIBILITY_LABEL_VOICE_MEMO_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Голосовое сообщение %1$d секунда</string>
+			<key>few</key>
+			<string>Голосовое сообщение %1$d секунды</string>
+			<key>many</key>
+			<string>Голосовое сообщение %1$d секунд</string>
+			<key>other</key>
+			<string>Голосовое сообщение %1$d секунды</string>
+		</dict>
+	</dict>
+	<key>ADD_GROUP_MEMBERS_ACTION_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Добавить участника</string>
+			<key>few</key>
+			<string>Добавить участников</string>
+			<key>many</key>
+			<string>Добавить участников</string>
+			<key>other</key>
+			<string>Добавить участника</string>
+		</dict>
+	</dict>
+	<key>ADD_GROUP_MEMBERS_VIEW_CONFIRM_ALERT_MESSAGE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Добавить %1$d участника в «%2$@»?</string>
+			<key>few</key>
+			<string>Добавить %1$d участников в «%2$@»?</string>
+			<key>many</key>
+			<string>Добавить %1$d участников в «%2$@»?</string>
+			<key>other</key>
+			<string>Добавить %1$d участника в «%2$@»?</string>
+		</dict>
+	</dict>
+	<key>ADD_GROUP_MEMBERS_VIEW_CONFIRM_ALERT_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Добавить нового участника</string>
+			<key>few</key>
+			<string>Добавить новых участников</string>
+			<key>many</key>
+			<string>Добавить новых участников</string>
+			<key>other</key>
+			<string>Добавить новых участников</string>
+		</dict>
+	</dict>
+	<key>CAMERA_VO_N_ITEMS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d элемент</string>
+			<key>few</key>
+			<string>%1$d элемента</string>
+			<key>many</key>
+			<string>%1$d элементов</string>
+			<key>other</key>
+			<string>%1$d элемента</string>
+		</dict>
+	</dict>
+	<key>CHAT_COLOR_SETTINGS_DELETE_ALERT_MESSAGE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Этот пользовательский цвет используется в %1$d чате. Вы хотите удалить этот цвет?</string>
+			<key>few</key>
+			<string>Этот пользовательский цвет используется в %1$d чатах. Вы хотите удалить его для всех чатов?</string>
+			<key>many</key>
+			<string>Этот пользовательский цвет используется в %1$d чатах. Вы хотите удалить его для всех чатов?</string>
+			<key>other</key>
+			<string>Этот пользовательский цвет используется в %1$d чата. Вы хотите удалить его для всех чатов?</string>
+		</dict>
+	</dict>
+	<key>CHAT_COLOR_SETTINGS_UPDATE_ALERT_MESSAGE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Этот цвет используется в %1$d чате. Вы хотите сохранить изменения для всех чатов?</string>
+			<key>few</key>
+			<string>Этот цвет используется в %1$d чатах. Вы хотите сохранить изменения для всех чатов?</string>
+			<key>many</key>
+			<string>Этот цвет используется в %1$d чатах. Вы хотите сохранить изменения для всех чатов?</string>
+			<key>other</key>
+			<string>Этот цвет используется в %1$d чата. Вы хотите сохранить изменения для всех чатов?</string>
+		</dict>
+	</dict>
+	<key>CONVERSATION_DELETE_CONFIRMATIONS_ALERT_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Удалить %1$d чат?</string>
+			<key>few</key>
+			<string>Удалить %1$d чата?</string>
+			<key>many</key>
+			<string>Удалить %1$d чатов?</string>
+			<key>other</key>
+			<string>Удалить %1$d чата?</string>
+		</dict>
+	</dict>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_MESSAGES_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Этот чат будет удалён с этого устройства.</string>
+			<key>few</key>
+			<string>эти чата будут удалены с этого устройства.</string>
+			<key>many</key>
+			<string>эти чата будут удалены с этого устройства.</string>
+			<key>other</key>
+			<string>эти чата будут удалены с этого устройства.</string>
+		</dict>
+	</dict>
+	<key>CONVERSATION_PICKER_CAN_SELECT_NO_MORE_CONVERSATIONS_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Вы не можете выбрать более чем %1$d чат.</string>
+			<key>few</key>
+			<string>Вы не можете выбрать более чем %1$d чата.</string>
+			<key>many</key>
+			<string>Вы не можете выбрать более чем %1$d чатов.</string>
+			<key>other</key>
+			<string>Вы не можете выбрать более чем %1$d чата.</string>
+		</dict>
+	</dict>
+	<key>CONVERSATION_SEARCH_RESULTS_%d_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@position@</string>
+		<key>position</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d %2$#@total@</string>
+			<key>few</key>
+			<string>%1$d %2$#@total@</string>
+			<key>many</key>
+			<string>%1$d %2$#@total@</string>
+			<key>other</key>
+			<string>%1$d %2$#@total@</string>
+		</dict>
+		<key>total</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>из %2$d совпадения</string>
+			<key>few</key>
+			<string>из %2$d совпадений</string>
+			<key>many</key>
+			<string>из %2$d совпадений</string>
+			<key>other</key>
+			<string>из %2$d совпадения</string>
+		</dict>
+	</dict>
+	<key>CONVERSATION_SETTINGS_MEMBERS_SECTION_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник</string>
+			<key>few</key>
+			<string>%1$d участника</string>
+			<key>many</key>
+			<string>%1$d участников</string>
+			<key>other</key>
+			<string>%1$d участника</string>
+		</dict>
+	</dict>
+	<key>CONVERSATION_SETTINGS_MUTUAL_GROUPS_SECTION_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d общая группа</string>
+			<key>few</key>
+			<string>%1$d общие группы</string>
+			<key>many</key>
+			<string>%1$d общих групп</string>
+			<key>other</key>
+			<string>%1$d общие группы</string>
+		</dict>
+	</dict>
+	<key>DATE_MINUTES_AGO_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$dм</string>
+			<key>few</key>
+			<string>%1$dм</string>
+			<key>many</key>
+			<string>%1$dм</string>
+			<key>other</key>
+			<string>%1$dм</string>
+		</dict>
+	</dict>
+	<key>DATE_MINUTES_AGO_LONG_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d минуту назад</string>
+			<key>few</key>
+			<string>%1$d минуты назад</string>
+			<key>many</key>
+			<string>%1$d минут назад</string>
+			<key>other</key>
+			<string>%1$d минуты назад</string>
+		</dict>
+	</dict>
+	<key>DELETE_SELECTED_MESSAGES_IN_CONVERSATION_ALERT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Удалить %1$d сообщение?</string>
+			<key>few</key>
+			<string>Удалить %1$d сообщения?</string>
+			<key>many</key>
+			<string>Удалить %1$d сообщений?</string>
+			<key>other</key>
+			<string>Удалить %1$d сообщения?</string>
+		</dict>
+	</dict>
+	<key>EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER_GROUP_FULL_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Достигнут максимальный размер группы в %1$d участник.</string>
+			<key>few</key>
+			<string>Достигнут максимальный размер группы в %1$d участника.</string>
+			<key>many</key>
+			<string>Достигнут максимальный размер группы в %1$d участников.</string>
+			<key>other</key>
+			<string>Достигнут максимальный размер группы в %1$d участника.</string>
+		</dict>
+	</dict>
+	<key>EXPIRATION_WARNING_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ваша версия Link Messenger перестанет работать через %1$d день. Нажмите, чтобы обновить до новейшей версии.</string>
+			<key>few</key>
+			<string>Ваша версия Link Messenger перестанет работать через %1$d дня. Нажмите, чтобы обновить до новейшей версии.</string>
+			<key>many</key>
+			<string>Ваша версия Link Messenger перестанет работать через %1$d дней. Нажмите, чтобы обновить до новейшей версии.</string>
+			<key>other</key>
+			<string>Ваша версия Link Messenger перестанет работать через %1$d дня. Нажмите, чтобы обновить до новейшей версии.</string>
+		</dict>
+	</dict>
+	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Отправить %1$d сообщение</string>
+			<key>few</key>
+			<string>Отправить %1$d сообщения</string>
+			<key>many</key>
+			<string>Отправить %1$d сообщений</string>
+			<key>other</key>
+			<string>Отправить %1$d сообщения</string>
+		</dict>
+	</dict>
+	<key>GROUPS_LEGACY_GROUP_DROPPED_MEMBERS_BANNER_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участника не удалось автоматически добавить в Новую группу. Добавить их сейчас?</string>
+			<key>few</key>
+			<string>%1$d участников не удалось автоматически добавить в Новую группу. Добавить их сейчас?</string>
+			<key>many</key>
+			<string>%1$d участников не удалось автоматически добавить в Новую группу. Добавить их сейчас?</string>
+			<key>other</key>
+			<string>%1$d участника не удалось автоматически добавить в Новую группу. Добавить их сейчас?</string>
+		</dict>
+	</dict>
+	<key>GROUPS_TOO_MANY_MEMBERS_ALERT_MESSAGE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Группы Link Messenger работают лучше всего с %1$d участником или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<key>few</key>
+			<string>Группы Link Messenger работают лучше всего с %1$d участниками или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<key>many</key>
+			<string>Группы Link Messenger работают лучше всего с %1$d участниками или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<key>other</key>
+			<string>Группы Link Messenger работают лучше всего с %1$d участника или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Для этого звонка было достигнуто максимальное количество участников — %1$d. Попробуйте ещё раз позже.</string>
+			<key>few</key>
+			<string>Для этого звонка было достигнуто максимальное количество участников — %1$d. Попробуйте ещё раз позже.</string>
+			<key>many</key>
+			<string>Для этого звонка было достигнуто максимальное количество участников — %1$d. Попробуйте ещё раз позже.</string>
+			<key>other</key>
+			<string>Для этого звонка было достигнуто максимальное количество участников — %1$d. Попробуйте ещё раз позже.</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_IN_THIS_CALL_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>В этом звонке · %1$d человек</string>
+			<key>few</key>
+			<string>В этом звонке · %1$d человека</string>
+			<key>many</key>
+			<string>В этом звонке · %1$d человек</string>
+			<key>other</key>
+			<string>В этом звонке · %1$d человека</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_IS_RINGING_MANY_PEOPLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Звоним %2$@, %3$@ и ещё %1$d человеку…</string>
+			<key>few</key>
+			<string>Звоним %2$@, %3$@ и ещё %1$d людям…</string>
+			<key>many</key>
+			<string>Звоним %2$@, %3$@ и ещё %1$d людям…</string>
+			<key>other</key>
+			<string>Звоним %2$@, %3$@ и ещё %1$d человека…</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_MANY_PEOPLE_HERE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@, %3$@ и ещё %1$d человек в этом звонке</string>
+			<key>few</key>
+			<string>%2$@, %3$@ и ещё %1$d человека в этом звонке</string>
+			<key>many</key>
+			<string>%2$@, %3$@ и ещё %1$d человек в этом звонке</string>
+			<key>other</key>
+			<string>%2$@, %3$@ и ещё %1$d человека в этом звонке</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_NOTIFICATION_MANY_JOINED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@, %3$@ и ещё %1$d человек присоединились к звонку</string>
+			<key>few</key>
+			<string>%2$@, %3$@ и ещё %1$d человека присоединились к звонку</string>
+			<key>many</key>
+			<string>%2$@, %3$@ и ещё %1$d человек присоединились к звонку</string>
+			<key>other</key>
+			<string>%2$@, %3$@ и ещё %1$d человека присоединились к звонку</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_NOTIFICATION_MANY_LEFT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@, %3$@ и ещё %1$d человек покинули звонок</string>
+			<key>few</key>
+			<string>%2$@, %3$@ и ещё %1$d человека покинули звонок</string>
+			<key>many</key>
+			<string>%2$@, %3$@ и ещё %1$d человек покинули звонок</string>
+			<key>other</key>
+			<string>%2$@, %3$@ и ещё %1$d человека покинули звонок</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_WILL_NOTIFY_MANY_PEOPLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@, %3$@ и ещё %1$d человек будут уведомлены</string>
+			<key>few</key>
+			<string>%2$@, %3$@ и ещё %1$d человека будут уведомлены</string>
+			<key>many</key>
+			<string>%2$@, %3$@ и ещё %1$d человек будут уведомлены</string>
+			<key>other</key>
+			<string>%2$@, %3$@ и ещё %1$d человека будут уведомлены</string>
+		</dict>
+	</dict>
+	<key>GROUP_CALL_WILL_RING_MANY_PEOPLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Link будет звонить у %2$@, %3$@ и ещё у %1$d человека</string>
+			<key>few</key>
+			<string>Link будет звонить у %2$@, %3$@ и ещё у %1$d человек</string>
+			<key>many</key>
+			<string>Link будет звонить у %2$@, %3$@ и ещё у %1$d человек</string>
+			<key>other</key>
+			<string>Link будет звонить у %2$@, %3$@ и ещё у %1$d человека</string>
+		</dict>
+	</dict>
+	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d приглашение отправлено</string>
+			<key>few</key>
+			<string>%1$d приглашения отправлено</string>
+			<key>many</key>
+			<string>%1$d приглашений отправлено</string>
+			<key>other</key>
+			<string>%1$d приглашения отправлено</string>
+		</dict>
+	</dict>
+	<key>GROUP_MEMBERSHIP_COLLISIONS_BANNER_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник группы имеет похожее имя.</string>
+			<key>few</key>
+			<string>%1$d участника группы имеют похожие имена.</string>
+			<key>many</key>
+			<string>%1$d участников группы имеют похожие имена.</string>
+			<key>other</key>
+			<string>%1$d участника группы имеют похожие имена.</string>
+		</dict>
+	</dict>
+	<key>GROUP_MEMBERSHIP_NAME_MULTIPLE_COLLISION_HEADER_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник группы имеет похожее имя. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+			<key>few</key>
+			<string>%1$d участника группы имеют похожие имена. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+			<key>many</key>
+			<string>%1$d участников группы имеют похожие имена. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+			<key>other</key>
+			<string>%1$d участника группы имеют похожие имена. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+		</dict>
+	</dict>
+	<key>GROUP_MEMBERSHIP_NAME_SINGLE_COLLISION_HEADER_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник группы имеет одинаковое имя. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+			<key>few</key>
+			<string>%1$d участника группы имеют одинаковое имя. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+			<key>many</key>
+			<string>%1$d участников группы имеют одинаковое имя. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+			<key>other</key>
+			<string>%1$d участника группы имеют одинаковое имя. Просмотрите участников ниже и, если необходимо, примите меры.</string>
+		</dict>
+	</dict>
+	<key>GROUP_MEMBER_COUNT_LABEL_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник</string>
+			<key>few</key>
+			<string>%1$d участника</string>
+			<key>many</key>
+			<string>%1$d участников</string>
+			<key>other</key>
+			<string>%1$d участника</string>
+		</dict>
+	</dict>
+	<key>GROUP_MEMBER_COUNT_WITHOUT_LIMIT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник</string>
+			<key>few</key>
+			<string>%1$d участника</string>
+			<key>many</key>
+			<string>%1$d участников</string>
+			<key>other</key>
+			<string>%1$d участника</string>
+		</dict>
+	</dict>
+	<key>GROUP_REMOTE_USER_INVITED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d человек был приглашён в группу.</string>
+			<key>few</key>
+			<string>%1$d человека были приглашены в группу.</string>
+			<key>many</key>
+			<string>%1$d человек были приглашены в группу.</string>
+			<key>other</key>
+			<string>%1$d человека были приглашены в группу.</string>
+		</dict>
+	</dict>
+	<key>GROUP_REMOTE_USER_INVITED_BY_REMOTE_USER_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ пригласил(-а) %1$d человека в группу.</string>
+			<key>few</key>
+			<string>%2$@ пригласил(-а) %1$d человек в группу.</string>
+			<key>many</key>
+			<string>%2$@ пригласил(-а) %1$d человек в группу.</string>
+			<key>other</key>
+			<string>%2$@ пригласил(-а) %1$d человека в группу.</string>
+		</dict>
+	</dict>
+	<key>GROUP_REMOTE_USER_INVITE_REVOKED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d приглашение в группу было отозвано.</string>
+			<key>few</key>
+			<string>%1$d приглашения в группу были отозваны.</string>
+			<key>many</key>
+			<string>%1$d приглашений в группу были отозваны.</string>
+			<key>other</key>
+			<string>%1$d приглашения в группу были отозваны.</string>
+		</dict>
+	</dict>
+	<key>GROUP_REMOTE_USER_INVITE_REVOKED_BY_REMOTE_USER_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ отозвал(-а) приглашение в группу для %1$d человека.</string>
+			<key>few</key>
+			<string>%2$@ отозвал(-а) приглашение в группу для %1$d человек.</string>
+			<key>many</key>
+			<string>%2$@ отозвал(-а) приглашение в группу для %1$d человек.</string>
+			<key>other</key>
+			<string>%2$@ отозвал(-а) приглашение в группу для %1$d человека.</string>
+		</dict>
+	</dict>
+	<key>GROUP_REMOTE_USER_REQUESTED_TO_JOIN_THE_GROUP_AND_CANCELED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ запросил(-а) и отменил(-а) %1$d запрос на присоединение к группе по ссылке.</string>
+			<key>few</key>
+			<string>%2$@ запросил(-а) и отменил(-а) %1$d запроса на присоединение к группе по ссылке.</string>
+			<key>many</key>
+			<string>%2$@ запросил(-а) и отменил(-а) %1$d запросов на присоединение к группе по ссылке.</string>
+			<key>other</key>
+			<string>%2$@ запросил(-а) и отменил(-а) %1$d запроса на присоединение к группе по ссылке.</string>
+		</dict>
+	</dict>
+	<key>GROUP_STORY_VIEWERS_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>История в группе · %1$d зритель</string>
+			<key>few</key>
+			<string>История в группе · %1$d зрителя</string>
+			<key>many</key>
+			<string>История в группе · %1$d зрителей</string>
+			<key>other</key>
+			<string>История в группе · %1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>GROUP_WAS_MIGRATED_USERS_DROPPED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участника невозможно было добавить в Новую группу, и они были удалены из группы.</string>
+			<key>few</key>
+			<string>%1$d участников невозможно было добавить в Новую группу, и они были удалены из группы.</string>
+			<key>many</key>
+			<string>%1$d участников невозможно было добавить в Новую группу, и они были удалены из группы.</string>
+			<key>other</key>
+			<string>%1$d участника невозможно было добавить в Новую группу, и они были удалены из группы.</string>
+		</dict>
+	</dict>
+	<key>GROUP_WAS_MIGRATED_USERS_INVITED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участника невозможно было добавить в Новую группу, и им было отправлено приглашение.</string>
+			<key>few</key>
+			<string>%1$d участников невозможно было добавить в Новую группу, и им было отправлено приглашение.</string>
+			<key>many</key>
+			<string>%1$d участников невозможно было добавить в Новую группу, и им было отправлено приглашение.</string>
+			<key>other</key>
+			<string>%1$d участника невозможно было добавить в Новую группу, и им было отправлено приглашение.</string>
+		</dict>
+	</dict>
+	<key>IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Вы не можете поделиться более чем 1 элементом.</string>
+			<key>few</key>
+			<string>Вы не можете поделиться более чем %1$d элементами.</string>
+			<key>many</key>
+			<string>Вы не можете поделиться более чем %1$d элементами.</string>
+			<key>other</key>
+			<string>Вы не можете поделиться более чем %1$d элемента.</string>
+		</dict>
+	</dict>
+	<key>MANY_GROUPS_IN_COMMON_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d общая группа</string>
+			<key>few</key>
+			<string>%1$d общие группы</string>
+			<key>many</key>
+			<string>%1$d общих групп</string>
+			<key>other</key>
+			<string>%1$d общей группы</string>
+		</dict>
+	</dict>
+	<key>MEDIA_GALLERY_DELETE_MESSAGES_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Удалить %1$d сообщение</string>
+			<key>few</key>
+			<string>Удалить %1$d сообщения</string>
+			<key>many</key>
+			<string>Удалить %1$d сообщений</string>
+			<key>other</key>
+			<string>Удалить %1$d сообщения</string>
+		</dict>
+	</dict>
+	<key>MEDIA_GALLERY_ITEM_IMAGE_COUNT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d фотография</string>
+			<key>few</key>
+			<string>%1$d фотографии</string>
+			<key>many</key>
+			<string>%1$d фотографий</string>
+			<key>other</key>
+			<string>%1$d фотографии</string>
+		</dict>
+	</dict>
+	<key>MEDIA_GALLERY_ITEM_MIXED_COUNT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d элемент</string>
+			<key>few</key>
+			<string>%1$d элемента</string>
+			<key>many</key>
+			<string>%1$d элементов</string>
+			<key>other</key>
+			<string>%1$d элемента</string>
+		</dict>
+	</dict>
+	<key>MESSAGES_VIEW_GROUP_N_MEMBERS_BLOCKED_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Вы заблокировали %1$d участника этой группы</string>
+			<key>few</key>
+			<string>Вы заблокировали %1$d участников этой группы</string>
+			<key>many</key>
+			<string>Вы заблокировали %1$d участников этой группы</string>
+			<key>other</key>
+			<string>Вы заблокировали %1$d участника этой группы</string>
+		</dict>
+	</dict>
+	<key>MESSAGE_ACTIONS_TOOLBAR_CAPTION_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Выбрано: %1$d</string>
+			<key>few</key>
+			<string>Выбрано: %1$d</string>
+			<key>many</key>
+			<string>Выбрано: %1$d</string>
+			<key>other</key>
+			<string>Выбрано: %1$d</string>
+		</dict>
+	</dict>
+	<key>MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_SUBTITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Исключено: %1$d</string>
+			<key>few</key>
+			<string>Исключено: %1$d</string>
+			<key>many</key>
+			<string>Исключено: %1$d</string>
+			<key>other</key>
+			<string>Исключено: %1$d</string>
+		</dict>
+	</dict>
+	<key>MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_SUBTITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d зритель</string>
+			<key>few</key>
+			<string>%1$d зрителя</string>
+			<key>many</key>
+			<string>%1$d зрителей</string>
+			<key>other</key>
+			<string>%1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_SUBTITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d зритель</string>
+			<key>few</key>
+			<string>%1$d зрителя</string>
+			<key>many</key>
+			<string>%1$d зрителей</string>
+			<key>other</key>
+			<string>%1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Все контакты Link Messenger · %1$d зритель</string>
+			<key>few</key>
+			<string>Все контакты Link Messenger · %1$d зрителя</string>
+			<key>many</key>
+			<string>Все контакты Link Messenger · %1$d зрителей</string>
+			<key>other</key>
+			<string>Все контакты Link Messenger · %1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Все контакты Link Messenger · Исключено: %1$d</string>
+			<key>few</key>
+			<string>Все контакты Link Messenger · Исключено: %1$d</string>
+			<key>many</key>
+			<string>Все контакты Link Messenger · Исключено: %1$d</string>
+			<key>other</key>
+			<string>Все контакты Link Messenger · Исключено: %1$d</string>
+		</dict>
+	</dict>
+	<key>MY_STORY_VIEWERS_ONLY_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Делиться только с · %1$d зрителем</string>
+			<key>few</key>
+			<string>Делиться только с · %1$d зрителями</string>
+			<key>many</key>
+			<string>Делиться только с · %1$d зрителями</string>
+			<key>other</key>
+			<string>Делиться только с · %1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>NEW_GROUP_MEMBERS_VIEW_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d участник</string>
+			<key>few</key>
+			<string>%1$d участника</string>
+			<key>many</key>
+			<string>%1$d участников</string>
+			<key>other</key>
+			<string>%1$d участника</string>
+		</dict>
+	</dict>
+	<key>NEW_PRIVATE_STORY_VIEW_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d зритель</string>
+			<key>few</key>
+			<string>%1$d зрителя</string>
+			<key>many</key>
+			<string>%1$d зрителей</string>
+			<key>other</key>
+			<string>%1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>ONBOARDING_2FA_INVALID_PIN_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Неверный PIN-код. Осталась %1$d попытка.</string>
+			<key>few</key>
+			<string>Неверный PIN-код. Осталось %1$d попытки.</string>
+			<key>many</key>
+			<string>Неверный PIN-код. Осталось %1$d попыток.</string>
+			<key>other</key>
+			<string>Неверный PIN-код. Осталось %1$d попытки.</string>
+		</dict>
+	</dict>
+	<key>PENDING_GROUP_MEMBERS_MEMBER_INVITED_USERS_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ пригласил(-а) %1$d человека</string>
+			<key>few</key>
+			<string>%2$@ пригласил(-а) %1$d человек</string>
+			<key>many</key>
+			<string>%2$@ пригласил(-а) %1$d человек</string>
+			<key>other</key>
+			<string>%2$@ пригласил(-а) %1$d человека</string>
+		</dict>
+	</dict>
+	<key>PENDING_GROUP_MEMBERS_REQUEST_BANNER_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d ожидающий запрос на участие.</string>
+			<key>few</key>
+			<string>%1$d ожидающих запроса на участие.</string>
+			<key>many</key>
+			<string>%1$d ожидающих запросов на участие.</string>
+			<key>other</key>
+			<string>%1$d ожидающего запроса на участие.</string>
+		</dict>
+	</dict>
+	<key>PENDING_GROUP_MEMBERS_REVOKE_INVALID_INVITES_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Отозвать %1$d недействительное приглашение</string>
+			<key>few</key>
+			<string>Отозвать %1$d недействительных приглашения</string>
+			<key>many</key>
+			<string>Отозвать %1$d недействительных приглашений</string>
+			<key>other</key>
+			<string>Отозвать %1$d недействительного приглашения</string>
+		</dict>
+	</dict>
+	<key>PENDING_GROUP_MEMBERS_REVOKE_INVITE_BUTTON_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Отозвать приглашение</string>
+			<key>few</key>
+			<string>Отозвать приглашения</string>
+			<key>many</key>
+			<string>Отозвать приглашений</string>
+			<key>other</key>
+			<string>Отозвать приглашения</string>
+		</dict>
+	</dict>
+	<key>PENDING_GROUP_MEMBERS_REVOKE_INVITE_CONFIRMATION_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Отозвать %1$d приглашение, которое отправил(-а) «%2$@»?</string>
+			<key>few</key>
+			<string>Отозвать %1$d приглашения, которые отправил(-а) «%2$@»?</string>
+			<key>many</key>
+			<string>Отозвать %1$d приглашений, которые отправил(-а) «%2$@»?</string>
+			<key>other</key>
+			<string>Отозвать %1$d приглашения, которые отправил(-а) «%2$@»?</string>
+		</dict>
+	</dict>
+	<key>PRIVATE_STORY_VIEWERS_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Пользовательская история · %1$d зритель</string>
+			<key>few</key>
+			<string>Пользовательская история · %1$d зрителя</string>
+			<key>many</key>
+			<string>Пользовательская история · %1$d зрителей</string>
+			<key>other</key>
+			<string>Пользовательская история · %1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>У вас осталась %1$d попытка. Если вы исчерпаете попытки, вы сможете создать новый PIN-код. Вы сможете зарегистрироваться и использовать свою учётную запись, но потеряете некоторые сохранённые настройки, например информацию вашего профиля.</string>
+			<key>few</key>
+			<string>У вас осталось %1$d попытки. Если вы исчерпаете попытки, вы сможете создать новый PIN-код. Вы сможете зарегистрироваться и использовать свою учётную запись, но потеряете некоторые сохранённые настройки, например информацию вашего профиля.</string>
+			<key>many</key>
+			<string>У вас осталось %1$d попыток. Если вы исчерпаете попытки, вы сможете создать новый PIN-код. Вы сможете зарегистрироваться и использовать свою учётную запись, но потеряете некоторые сохранённые настройки, например информацию вашего профиля.</string>
+			<key>other</key>
+			<string>У вас осталось %1$d попытки. Если вы исчерпаете попытки, вы сможете создать новый PIN-код. Вы сможете зарегистрироваться и использовать свою учётную запись, но потеряете некоторые сохранённые настройки, например информацию вашего профиля.</string>
+		</dict>
+	</dict>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_REGLOCK_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>У вас осталась %1$d попытка. Если вы исчерпаете попытки, ваша учётная запись будет заблокирована. Если после этого в течение 7 дней в ней не будет активности, вы сможете зарегистрироваться заново без ввода PIN-кода. При этом учётная запись будет стёрта, а всё содержимое удалено.</string>
+			<key>few</key>
+			<string>У вас осталось %1$d попытки. Если вы исчерпаете попытки, ваша учётная запись будет заблокирована. Если после этого в течение 7 дней в ней не будет активности, вы сможете зарегистрироваться заново без ввода PIN-кода. При этом учётная запись будет стёрта, а всё содержимое удалено.</string>
+			<key>many</key>
+			<string>У вас осталось %1$d попыток. Если вы исчерпаете попытки, ваша учётная запись будет заблокирована. Если после этого в течение 7 дней в ней не будет активности, вы сможете зарегистрироваться заново без ввода PIN-кода. При этом учётная запись будет стёрта, а всё содержимое удалено.</string>
+			<key>other</key>
+			<string>У вас осталось %1$d попытки. Если вы исчерпаете попытки, ваша учётная запись будет заблокирована. Если после этого в течение 7 дней в ней не будет активности, вы сможете зарегистрироваться заново без ввода PIN-кода. При этом учётная запись будет стёрта, а всё содержимое удалено.</string>
+		</dict>
+	</dict>
+	<key>STORIES_SHARESHEET_PARTIAL_SEND_SUBTITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Не все элементы могут быть отправлены в выбранную вами историю, поскольку тип файла не поддерживается.</string>
+			<key>few</key>
+			<string>Не все элементы могут быть отправлены в выбранную вами историю, поскольку тип файла не поддерживается.</string>
+			<key>many</key>
+			<string>Не все элементы могут быть отправлены в выбранную вами историю, поскольку тип файла не поддерживается.</string>
+			<key>other</key>
+			<string>Не все элементы могут быть отправлены в выбранную вами историю, поскольку тип файла не поддерживается.</string>
+		</dict>
+	</dict>
+	<key>STORY_REPLIES_COUNT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; ответ</string>
+			<key>few</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; ответа</string>
+			<key>many</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; ответов</string>
+			<key>other</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; ответа</string>
+		</dict>
+	</dict>
+	<key>STORY_SELECT_ALLOWED_CONNECTIONS_VIEW_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d зритель</string>
+			<key>few</key>
+			<string>%1$d зрителя</string>
+			<key>many</key>
+			<string>%1$d зрителей</string>
+			<key>other</key>
+			<string>%1$d зрителя</string>
+		</dict>
+	</dict>
+	<key>STORY_SELECT_EXCLUDED_CONNECTIONS_VIEW_TITLE_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Исключено: %1$d</string>
+			<key>few</key>
+			<string>Исключено: %1$d</string>
+			<key>many</key>
+			<string>Исключено: %1$d</string>
+			<key>other</key>
+			<string>Исключено: %1$d</string>
+		</dict>
+	</dict>
+	<key>STORY_SENDING_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Отправляем %1$d…</string>
+			<key>few</key>
+			<string>Отправляем %1$d…</string>
+			<key>many</key>
+			<string>Отправляем %1$d…</string>
+			<key>other</key>
+			<string>Отправляем %1$d…</string>
+		</dict>
+	</dict>
+	<key>STORY_VIEWS_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@text@</string>
+		<key>text</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d просмотр</string>
+			<key>few</key>
+			<string>%1$d просмотра</string>
+			<key>many</key>
+			<string>%1$d просмотров</string>
+			<key>other</key>
+			<string>%1$d просмотра</string>
+		</dict>
+	</dict>
+	<key>STORY_VIEWS_COUNT_%d</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@caption@</string>
+		<key>caption</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; просмотр</string>
+			<key>few</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; просмотра</string>
+			<key>many</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; просмотров</string>
+			<key>other</key>
+			<string>&lt;bold&gt;%1$d&lt;/bold&gt; просмотра</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link skal bruge Apple Music for at afspille vedhæftede mediefiler.";
+NSCameraUsageDescription = "Link bruger dit kamera til at tage fotos og videoopkald";
+NSContactsUsageDescription = "Link bruger dine kontakter til at finde brugere, du kender. Vi gemmer ikke dine kontakter på serveren.";
+NSFaceIDUsageDescription = "Links skærmlås bruger Face ID";
+NSLocationWhenInUseUsageDescription = "Link kræver adgang til din placering for at dele din nuværende placering";
+NSMicrophoneUsageDescription = "Link kræver adgang til din mikrofon, for at foretage og modtage telefonopkald og optage talebeskeder";
+NSPhotoLibraryAddUsageDescription = "Link gemmer fotos i dit bibliotek";
+NSPhotoLibraryUsageDescription = "Link lader dig vælge, hvilke fotos fra dit bibliotek du vil sende";
+NSLocalNetworkUsageDescription = "Link bruger det lokale netværk, til at give dig mulighed for direkte at overføre din konto, til en ny telefon. Den vil ikke blive anvendt, medmindre du udtrykkeligt vælger at starte en overførsel til en ny enhed";

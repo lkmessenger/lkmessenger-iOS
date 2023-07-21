@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "O Link Messenger necessita de utilizar a aplicação Apple Music para reproduzir anexos multimédia.";
+NSCameraUsageDescription = "O Link Messenger utiliza a sua câmara para tirar fotografias e fazer vídeochamadas.";
+NSContactsUsageDescription = "O Link Messenger acede aos seus contactos para encontrar utilizadores que você conhece. Não armazenamos os seus contactos no servidor.";
+NSFaceIDUsageDescription = "O bloqueio de ecrã do Link Messenger utiliza o Face ID.";
+NSLocationWhenInUseUsageDescription = "O Link Messenger necessita de aceder à sua localização para poder partilhar a sua localização atual.";
+NSMicrophoneUsageDescription = "O Link Messenger necessita de ter acesso ao seu microfone para fazer e receber chamadas telefónicas e gravar mensagens de voz.";
+NSPhotoLibraryAddUsageDescription = "O Link Messenger guardará fotografias na sua biblioteca.";
+NSPhotoLibraryUsageDescription = "O Link Messenger permitirá que escolha quais as fotografias da sua biblioteca a enviar.";
+NSLocalNetworkUsageDescription = "O Link Messenger utiliza a rede local para lhe permitir que transfira diretamente a sua conta para um telemóvel novo. Não será possível utilizar até que você escolha explicitamente.";

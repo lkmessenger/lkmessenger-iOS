@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Ní mór do Link Messenger Apple Music a úsáid chun ceangaltáin mheáin a sheinm.";
+NSCameraUsageDescription = "Úsáideann Link Messenger do cheamara chun pictiúir a ghlacadh agus le haghaidh físghlaonna.";
+NSContactsUsageDescription = "Úsáideann Link Messenger do chuid teagmhálaithe chun teacht ar dhaoine a bhfuil aithne agat orthu. Ní stórálaimid do chuid teagmhálaithe ar an bhfreastalaí.";
+NSFaceIDUsageDescription = "Baineann an Scáileán Glasála in Link Messenger úsáid as Face ID.";
+NSLocationWhenInUseUsageDescription = "Caithfidh tú an áit ina bhfuil tú a nochtadh do Link Messenger chun í chomhroinnt.";
+NSMicrophoneUsageDescription = "Caithfidh tú cead a thabhairt do Link Messenger an micreafón a úsáid chun glaonna a chur nó a ghlacadh leo, agus chun teachtaireachtaí a thaifeadadh.";
+NSPhotoLibraryAddUsageDescription = "Sábhálfaidh Link Messenger pictiúir i do leabharlann.";
+NSPhotoLibraryUsageDescription = "Ligfidh Link Messenger duit na pictiúir le seoladh a roghnú ó do leabharlann.";
+NSLocalNetworkUsageDescription = "Link uses the local network to allow you to directly transfer your account to a new phone. It will not be used unless you explicitly choose to initiate a transfer to a new device.";

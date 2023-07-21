@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link จำเป็นต้องใช้ Apple Music เพื่อเล่นสื่อแนบ";
+NSCameraUsageDescription = "Link ใช้กล้องของคุณเพื่อถ่ายภาพและโทรแบบเห็นหน้า";
+NSContactsUsageDescription = "Link ใช้รายชื่อผู้ติดต่อของคุณเพื่อค้นหาผู้ใช้ที่คุณรู้จัก เราไม่เก็บรายชื่อผู้ติดต่อของคุณไว้บนเซิร์ฟเวอร์ของเรา";
+NSFaceIDUsageDescription = "การล็อกหน้าจอของ Link Messenger ใช้ Face ID";
+NSLocationWhenInUseUsageDescription = "Link จำเป็นต้องเข้าถึงตำแหน่งที่ตั้งของคุณสำหรับการแบ่งปันตำแหน่งปัจจุบันของคุณ";
+NSMicrophoneUsageDescription = "Link จำเป็นต้องเข้าถึงไมโครโฟนของคุณสำหรับการโทรออก รับสาย และอัดข้อความเสียง";
+NSPhotoLibraryAddUsageDescription = "Link จะบันทึกรูปภาพของคุณไว้ในคลังเก็บของคุณ";
+NSPhotoLibraryUsageDescription = "Link จะให้คุณเลือกรูปภาพจากคลังเก็บของคุณในการส่งภาพ";
+NSLocalNetworkUsageDescription = "Link ใช้เครือข่ายภายใน เพื่อให้คุณถ่ายโอนบัญชีของคุณไปโทรศัพท์ใหม่ได้โดยตรง มันจะไม่ใช้เครือข่ายภายใน เว้นว่าคุณได้เลือกโดยชัดแจ้งว่าจะเริ่มการถ่ายโอนไปอุปกรณ์ใหม่";

@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link tarvitsee Apple Music -käyttöoikeuden medialiitteiden toistamiseen.";
+NSCameraUsageDescription = "Link käyttää kameraa kuvaamiseen ja videopuheluihin.";
+NSContactsUsageDescription = "Link käyttää yhteystietoja tuntemiesi ihmisten löytämiseen. Yhteystietoja ei tallenneta Linkin palvelimelle.";
+NSFaceIDUsageDescription = "Linkin näytön lukitus käyttää Face ID:tä.";
+NSLocationWhenInUseUsageDescription = "Link tarvitsee sijaintitietojen käyttöoikeuden sijaintisi jakamiseksi.";
+NSMicrophoneUsageDescription = "Link tarvitsee mikrofonin käyttöoikeuden puheluihin ja ääniviesteihin.";
+NSPhotoLibraryAddUsageDescription = "Link tallentaa kuvat kirjastoon.";
+NSPhotoLibraryUsageDescription = "Link antaa valita, mitä kuvia kirjastosta lähetetään.";
+NSLocalNetworkUsageDescription = "Link käyttää lähiverkkoa tilin siirtämiseen uuteen puhelimeen. Lähiverkkoa ei käytetä muihin toimintoihin.";

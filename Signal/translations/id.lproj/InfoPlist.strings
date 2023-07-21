@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link perlu menggunakan Apple Music untuk memainkan lampiran media.";
+NSCameraUsageDescription = "Link menggunakan kamera Anda untuk mengambil foto dan untuk panggilan video.";
+NSContactsUsageDescription = "Link menggunakan kontak Anda untuk mencari pengguna yang Anda ketahui. Kami tidak menyimpan kontak-kontak Anda pada peladen.";
+NSFaceIDUsageDescription = "Pengunci Layar Link Messenger menggunakan Face ID.";
+NSLocationWhenInUseUsageDescription = "Link perlu mengakses lokasi Anda untuk membagikan lokasi terkini Anda.";
+NSMicrophoneUsageDescription = "Link perlu mengakses mikrofon Anda untuk membuat dan menerima panggilan telepon dan merekam pesan suara.";
+NSPhotoLibraryAddUsageDescription = "Link akan menyimpan foto-foto ke galeri Anda.";
+NSPhotoLibraryUsageDescription = "Link akan membiarkan Anda memilih foto mana dari galeri Anda untuk dikirimkan.";
+NSLocalNetworkUsageDescription = "Link menggunakan jaringan lokal untuk memungkinkan Anda mentransfer secara langsung akun Anda ke ponsel baru. Fitur ini tidak akan digunakan kecuali Anda memilih untuk mentransfer ke sebuah perangkat baru.";

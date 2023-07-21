@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link potrebuje prístup k Apple Music na prehrávanie mediálnych príloh.";
+NSCameraUsageDescription = "Link používa vašu kameru na zachytenie fotiek a uskutočňovanie videohovorov.";
+NSContactsUsageDescription = "Link používa vaše kontakty na nájdenie používateľov, ktorých poznáte. Vaše kontakty na servery neukladáme.";
+NSFaceIDUsageDescription = "Zámok obrazovky Link Messenger používa Face ID.";
+NSLocationWhenInUseUsageDescription = "Link potrebuje prístup k vášmu umiestneniu na zdieľanie vašej aktuálnej polohy.";
+NSMicrophoneUsageDescription = "Link potrebuje prístup k vášmu mikrofónu na uskutočňovanie a prijímanie hlasových hovorov a nahrávanie hlasových správ.";
+NSPhotoLibraryAddUsageDescription = "Link uloží fotky do vašej knižnice.";
+NSPhotoLibraryUsageDescription = "Link vám umožní zvoliť, ktoré fotky z vašej knižnice chcete odoslať.";
+NSLocalNetworkUsageDescription = "Aby ste si účet mohli preniesť priamo do nového telefónu, Link Messenger používa lokálnu sieť. Tá sa nepoužije, ak sa vyslovene nerozhodnete pre začatie prenosu do nového zariadenia.";

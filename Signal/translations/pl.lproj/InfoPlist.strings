@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link potrzebuje aplikacji Apple Music, aby odtwarzać załączniki multimedialne.";
+NSCameraUsageDescription = "Link wykorzystuje Twój aparat podczas robienia zdjęć oraz połączeń wideo.";
+NSContactsUsageDescription = "Link używa Twoich kontaktów, aby odnaleźć użytkowników, których znasz. Nie przechowujemy Twoich kontaktów na naszych serwerach.";
+NSFaceIDUsageDescription = "Blokada ekranu Link Messenger używa funkcji Face ID.";
+NSLocationWhenInUseUsageDescription = "Link potrzebuje dostępu do Twojej lokalizacji, aby udostępnić gdzie obecnie się znajdujesz.";
+NSMicrophoneUsageDescription = "Link potrzebuje dostępu do Twojego mikrofonu, aby wykonywać oraz odbierać połączenia telefoniczne i nagrywać wiadomości głosowe.";
+NSPhotoLibraryAddUsageDescription = "Link zapisze zdjęcia w Twojej galerii.";
+NSPhotoLibraryUsageDescription = "Link pozwoli Ci wybrać, które ze zdjęć z Twojej galerii wysłać.";
+NSLocalNetworkUsageDescription = "Link korzysta z sieci lokalnej, aby pozwolić na bezpośrednie przeniesienie Twojego konta na nowy telefon. Nie zostanie ona użyta, jeśli nie rozpoczniesz przenoszenia na nowe urządzenie.";

@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link використовує Apple Music для відтворення медіавкладень.";
+NSCameraUsageDescription = "Link використовує камеру для знімків та відеовикликів.";
+NSContactsUsageDescription = "Link використовує ваші контакти, щоб знаходити знайомих вам користувачів. Ми не зберігаємо контакти на сервері.";
+NSFaceIDUsageDescription = "Блокувальник екрану Link Messenger використовує Face ID.";
+NSLocationWhenInUseUsageDescription = "Link потребує доступу до вашого розташування, щоб ви могли ним поділитися.";
+NSMicrophoneUsageDescription = "Link потребує доступу до мікрофона для можливості викликів та запису голосових повідомлень.";
+NSPhotoLibraryAddUsageDescription = "Link зберігатиме фото до бібліотеки фотографій.";
+NSPhotoLibraryUsageDescription = "Link дасть вам змогу вибрати фото для надсилання з бібліотеки.";
+NSLocalNetworkUsageDescription = "Link використовує локальну мережу для можливості перенесення вашого облікового запису на новий телефон. Цей дозвіл не буде використовуватись доки ви явно не ініціюєте перенесення даних на новий пристрій.";

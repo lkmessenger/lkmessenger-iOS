@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "میڈیا کے اٹیچمنٹس کو چلانے کیلئے Link Messenger کو Apple Music کا استعمال کرنے کی ضرورت ہے۔";
+NSCameraUsageDescription = "Link آپ کے کیمرا کو فوٹوز لینے اور ویڈیو کالز کے لیے استعمال کرتا ہے۔";
+NSContactsUsageDescription = "Link آپ کے جاننے والے صارفین کو تلاش کرنے کے لیئے آپ کے روابط کا استعمال کرتا ہے۔ ہم آپ کے روابط سرور پر اسٹور نہیں کرتے۔";
+NSFaceIDUsageDescription = "Link کا اسکرین لاک Face ID استعمال کرتا ہے۔";
+NSLocationWhenInUseUsageDescription = "Link کو آپ کے موجودہ مقام کا اشتراک کرنے کے لیئے آپ کے مقام تک رسائی کی ضرورت ہے۔";
+NSMicrophoneUsageDescription = "فون کال کرنے اور وائس پیغامات ریکارڈ کرنے کیلئے Link Messenger کو آپ کے مائیکروفون تک رسائی کی ضرورت ہے۔";
+NSPhotoLibraryAddUsageDescription = "Link آپ کی لائبریری میں تصاویر کو محفوظ کرے گا۔";
+NSPhotoLibraryUsageDescription = "Link آپ کو آپ کی لائبریری سے کون سی تصاویر بھیجنے کا انتخاب کرنے دیتا ہے۔";
+NSLocalNetworkUsageDescription = "Link مقامی نیٹ ورک کا استعمال کرتا ہے تاکہ آپ اپنے اکاؤنٹ کو براہ راست نئے فون میں منتقل کرسکیں۔ جب تک آپ واضح طور پر کسی نئے آلے میں منتقلی شروع کرنے کا انتخاب نہ کریں تب تک یہ استعمال نہیں ہوگا۔";

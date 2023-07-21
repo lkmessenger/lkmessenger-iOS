@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link'in içerik eklentilerini oynatması için Apple Music'e ihtiyacı var.";
+NSCameraUsageDescription = "Link fotoğraf çekmek ve görüntülü aramalar gerçekleştirmek için kameranızı kullanır.";
+NSContactsUsageDescription = "Link tanıdığınız kullanıcıları bulmak için rehberinizi kullanır. Kişilerinizi sunuclarımızda saklamamaktayız.";
+NSFaceIDUsageDescription = "Link'in Ekran Kilidi Face ID kullanır.";
+NSLocationWhenInUseUsageDescription = "Link'in mevcut konumunuzu paylaşmak için konum erişimine ihtiyacı var.";
+NSMicrophoneUsageDescription = "Link'in sesli aramalar gerçekleştirmek ve sesli iletiler gönderebilmek için mikrofonunuza erişime ihtiyacı var.";
+NSPhotoLibraryAddUsageDescription = "Link fotoğrafları albümlerinize kaydedecektir.";
+NSPhotoLibraryUsageDescription = "Link, göndermek istediğiniz fotoğrafları albümlerinizden seçmenizi sağlayacaktır.";
+NSLocalNetworkUsageDescription = "Link, hesabınızı doğrudan yeni bir telefona aktarmanıza izin vermek için yerel ağı kullanır. Yeni bir aygıta aktarım başlatmayı açıkça seçmediğiniz sürece kullanılmayacaktır.";

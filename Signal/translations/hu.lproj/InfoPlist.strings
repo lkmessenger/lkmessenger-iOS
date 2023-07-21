@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "A Linknak szüksége van Apple Music hozzáférésre a média csatolmány lejátszásához.";
+NSCameraUsageDescription = "A Link Messenger a kamerád segítségével készít fotókat és végez videóhívásokat.";
+NSContactsUsageDescription = "A Link Messenger a kontaktlistádat használja ismerőseid megtalálásához. Nem tárolunk kontaktlistát szerverünkön.";
+NSFaceIDUsageDescription = "A Link Messenger képernyőzár Face ID funkciót használ.";
+NSLocationWhenInUseUsageDescription = "A Linknak szüksége van a helyzetadataidra pozíciód megosztásához.";
+NSMicrophoneUsageDescription = "A Linknak szüksége van mikrofon hozzáférésre hívások indításához, fogadásához és hangjegyzetek küldéséhez.";
+NSPhotoLibraryAddUsageDescription = "A Link Messenger a fotógalériádba menti képeidet.";
+NSPhotoLibraryUsageDescription = "A Linkban válogathatsz melyik képet szeretnéd elküldeni.";
+NSLocalNetworkUsageDescription = "Amennyiben tudatosan ezt a funkciót választod, a Link Messenger a helyi hálózatot a fiókod új telefonra költöztetéséhez használja - semmilyen más célra nem.";

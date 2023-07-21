@@ -1,0 +1,9 @@
+NSAppleMusicUsageDescription = "Link Messenger musí použít Apple Music pro přehrání mediálních příloh.";
+NSCameraUsageDescription = "Link Messenger používá váš fotoaparát pro pořizování snímků a pro videohovory.";
+NSContactsUsageDescription = "Link Messenger používá vaše kontakty, aby našel uživatele, které znáte. Vaše kontakty na našich serverech neuchováváme.";
+NSFaceIDUsageDescription = "Uzamčení obrazovky v aplikaci Link Messenger využívá Face ID.";
+NSLocationWhenInUseUsageDescription = "Link Messenger potřebuje přístup k vaší pozici, aby ji mohl sdílet.";
+NSMicrophoneUsageDescription = "Link Messenger potřebuje přístup k vašemu mikrofonu pro hovory a nahrávání hlasových zpráv.";
+NSPhotoLibraryAddUsageDescription = "Link Messenger uloží fotografie do vaší knihovny.";
+NSPhotoLibraryUsageDescription = "Link Messenger vás nechá vybrat, které fotografie z vaší knihovny chcete odeslat.";
+NSLocalNetworkUsageDescription = "Pro přímý přesun vašeho účtu do nového telefonu používá Link Messenger místní síť. Toto nebude použito, pokud explicitně nezahájíte přenos do nového zařízení.";

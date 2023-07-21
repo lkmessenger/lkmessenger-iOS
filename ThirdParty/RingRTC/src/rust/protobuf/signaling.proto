@@ -1,0 +1,106 @@
+/*
+ * Copyright 2019-2021 Link Messenger, LLC
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
+
+syntax = "proto2";
+
+// Messages sent over the signaling channel
+
+package signaling;
+
+import "group_call.proto";
+
+// A serialized one these goes in the "opaque" field of the CallingMessage::Offer in SignalService.proto
+// For future compatibility, we can add new slots (v5, v6, ...)
+message Offer {
+  optional ConnectionParametersV4 v4 = 4;
+}
+
+// A serialized one these goes in the "opaque" field of the CallingMessage::Offer in SignalService.proto
+message Answer {
+  optional ConnectionParametersV4 v4 = 4;
+}
+
+// A serialized one these goes in the "opaque" field of the CallingMessage::Ice in SignalService.proto
+// Unlike other message types, the ICE message contains many of these, not just one.
+// We should perhaps rename this to "IceUpdate" since it can either be a candidate
+// or a removal of a candidate.  But it would require a lot of FFI code to be renamed
+// which doesn't seem worth it at the moment.
+message IceCandidate {
+  // Use a field value of 2 for compatibility since both V2 and V3 have the same format.
+  optional IceCandidateV3 added_V3 = 2;
+  // ICE candidate removal identifies the removed candidate
+  // by (transport_name, component, ip, port, udp/tcp).
+  // But we assume transport_name = "audio", component = 1, and udp
+  // So we just need (ip, port)
+  optional SocketAddr removed = 3;
+}
+
+message IceCandidateV3 {
+  optional string sdp = 1;
+}
+
+message SocketAddr {
+  optional bytes ip = 1;  // IPv4: 4 bytes; IPv6: 16 bytes
+  optional uint32 port = 2;
+}
+
+enum VideoCodecType {
+  VP8 = 8;
+  VP9 = 9;
+  H264_CONSTRAINED_BASELINE = 40;
+  H264_CONSTRAINED_HIGH = 46;
+}
+
+message VideoCodec {
+  optional VideoCodecType type = 1;
+  // Used for H264; Not used for VP8 or VP9
+  optional uint32 level = 2;
+}
+
+message ConnectionParametersV4 {
+  optional bytes public_key = 1;
+  optional string ice_ufrag = 2;
+  optional string ice_pwd = 3;
+  // In other words, the video codecs the sender can receive.
+  repeated VideoCodec receive_video_codecs = 4;
+  // Used at call establishment to convey the bitrate that the signaling sender (media receiver)
+  // wants the signaling receiver (media sender) to send.
+  optional uint64 max_bitrate_bps = 5;
+}
+
+// A generic calling message that is opaque to the application but interpreted by RingRTC.
+// A serialized one of these goes into the "Opaque" field in the CallingMessage variant
+// in Link Messenger protocol messages.
+message CallMessage {
+  message RingIntention {
+    enum Type {
+      RING = 0;
+      CANCELLED = 1;
+    }
+
+    optional bytes group_id = 1;
+    optional Type type = 2;
+    // This is signed so it fits in a SQLite integer column.
+    optional sfixed64 ring_id = 3;
+  }
+
+  message RingResponse {
+    enum Type {
+      RINGING = 0;
+      ACCEPTED = 1;
+      DECLINED = 2;
+      BUSY = 3;
+    }
+
+    optional bytes group_id = 1;
+    optional Type type = 2;
+    // This is signed so it fits in a SQLite integer column.
+    optional sfixed64 ring_id = 3;
+  }
+
+  optional group_call.DeviceToDevice group_call_message = 1;
+  optional RingIntention ring_intention = 2;
+  optional RingResponse ring_response = 3;
+}

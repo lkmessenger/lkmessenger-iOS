@@ -1,0 +1,148 @@
+#!/bin/sh
+
+#
+# Copyright 2019-2021 Link Messenger, LLC
+# SPDX-License-Identifier: AGPL-3.0-only
+#
+
+set -e
+
+# shellcheck source=bin/env.sh
+. "$(dirname "$0")"/env.sh
+
+# Note: make sure to only use NodeJS architectures here, like x64, ia32, arm64, etc.
+TARGET_ARCH=${TARGET_ARCH:-x64}
+
+usage()
+{
+    echo 'usage: build-electron [-d|-r|-c]
+    where:
+        -d to create a debug build (default)
+        -r to create a release build
+        -c to clean the build artifacts'
+}
+
+clean()
+{
+    # Remove all possible artifact directories.
+    rm -rf ./src/node/build
+    rm -rf ./src/node/dist
+    rm -rf ./src/node/node_modules
+    rm -rf ./src/rust/target/debug
+    rm -rf ./src/rust/target/release
+    rm -rf ./src/webrtc/src/out/debug
+    rm -rf ./src/webrtc/src/out/release
+}
+
+BUILD_TYPE=debug
+
+while [ "$1" != "" ]; do
+    case $1 in
+        -d | --debug )
+            BUILD_TYPE=debug
+            ;;
+        -r | --release )
+            BUILD_TYPE=release
+            ;;
+        -c | --clean )
+            clean
+            exit
+            ;;
+        -h | --help )
+            usage
+            exit
+            ;;
+        * )
+            usage
+            exit 1
+    esac
+    shift
+done
+
+case "$TARGET_ARCH" in
+    "x64")
+        GN_ARCH=x64
+        CARGO_ARCH=x86_64
+        ;;
+    "ia32")
+        GN_ARCH=x86
+        CARGO_ARCH=i686
+        ;;
+    "arm64")
+        GN_ARCH=arm64
+        CARGO_ARCH=aarch64
+        ;;
+    *)
+        echo "Unsupported architecture"
+        exit 1
+        ;;
+esac
+
+hash rustup 2>/dev/null || { echo >&2 "Make sure you have rustup installed and properly configured! Aborting."; exit 1; }
+
+RUSTFLAGS_WIN=
+
+case "$(rustup show active-toolchain)" in
+    *"x86_64-apple-darwin"* | *"aarch64-apple-darwin"* )
+        DEFAULT_PLATFORM="darwin"
+        CARGO_TARGET="${CARGO_ARCH}-apple-darwin"
+        ;;
+    *"x86_64-pc-windows"* )
+        DEFAULT_PLATFORM="win32"
+        CARGO_TARGET="${CARGO_ARCH}-pc-windows-msvc"
+        # Static linking to prevent build errors on Windows ia32
+        RUSTFLAGS_WIN="-C target-feature=+crt-static"
+        ;;
+    *"x86_64-unknown-linux"* )
+        DEFAULT_PLATFORM="linux"
+        CARGO_TARGET="${CARGO_ARCH}-unknown-linux-gnu"
+        ;;
+    * )
+        printf "Unknown platform detected!\nPlease make sure you have installed a valid Rust toolchain via rustup! Aborting.\n"
+        exit 1
+esac
+
+echo "Building for platform ${DEFAULT_PLATFORM}, TARGET_ARCH=${TARGET_ARCH}, GN_ARCH=${GN_ARCH}, CARGO_TARGET=${CARGO_TARGET}"
+
+export MACOSX_DEPLOYMENT_TARGET="10.10"
+
+# Build WebRTC.
+(
+    cd src/webrtc/src
+    WEBRTC_ARGS="target_cpu=\"${GN_ARCH}\" rtc_build_examples=false rtc_build_tools=false rtc_include_tests=false rtc_enable_protobuf=false rtc_use_x11=false rtc_enable_sctp=false rtc_libvpx_build_vp9=true rtc_include_ilbc=false"
+
+    if [ "${BUILD_TYPE}" = "debug" ]
+    then
+        gn gen -C "${OUTPUT_DIR}"/debug "--args=${WEBRTC_ARGS}"
+        ninja -C "${OUTPUT_DIR}"/debug
+    else
+        gn gen -C "${OUTPUT_DIR}"/release "--args=${WEBRTC_ARGS} is_debug=false"
+        ninja -C "${OUTPUT_DIR}"/release
+    fi
+)
+
+# Build and link the final RingRTC library.
+(
+    cd src/rust
+
+    if [ "${BUILD_TYPE}" = "debug" ]
+    then
+        RUSTFLAGS="${RUSTFLAGS_WIN}" OUTPUT_DIR="${OUTPUT_DIR}" cargo build --target ${CARGO_TARGET} --features electron
+    else
+        RUSTFLAGS="-C link-arg=-s ${RUSTFLAGS_WIN}" OUTPUT_DIR="${OUTPUT_DIR}" cargo build --target ${CARGO_TARGET} --features electron --release
+    fi
+
+    if [ $DEFAULT_PLATFORM = "darwin" ]
+    then
+        mkdir -p ../node/build/darwin
+        cp -f target/${CARGO_TARGET}/${BUILD_TYPE}/libringrtc.dylib ../node/build/darwin/libringrtc-"${TARGET_ARCH}".node
+    elif [ $DEFAULT_PLATFORM = "win32" ]
+    then
+        mkdir -p ../node/build/win32
+        cp -f target/${CARGO_TARGET}/${BUILD_TYPE}/ringrtc.dll ../node/build/win32/libringrtc-"${TARGET_ARCH}".node
+    elif [ $DEFAULT_PLATFORM = "linux" ]
+    then
+        mkdir -p ../node/build/linux
+        cp -f target/${CARGO_TARGET}/${BUILD_TYPE}/libringrtc.so ../node/build/linux/libringrtc-"${TARGET_ARCH}".node
+    fi
+)

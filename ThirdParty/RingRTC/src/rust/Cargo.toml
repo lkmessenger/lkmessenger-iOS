@@ -1,0 +1,95 @@
+#
+# Copyright 2019-2021 Link Messenger, LLC
+# SPDX-License-Identifier: AGPL-3.0-only
+#
+
+[package]
+name = "ringrtc"
+version = "2.21.5"
+authors = ["Calling Team <callingteam@signal.org>"]
+edition = "2018"
+description = "A Rust interface for WebRTC"
+license = "AGPL-3.0-only"
+
+[lib]
+crate_type = ["cdylib", "staticlib", "lib"]
+
+[[bin]]
+name = "cli"
+path = "src/cli.rs"
+required-features = ["native", "simnet"]
+
+[[bin]]
+name = "gctc"
+path = "src/gctc.rs"
+required-features = ["native", "http"]
+
+[dependencies]
+regex-aot         = { path = "regex-aot" }
+
+aes               = { version = "0.8"    }
+anyhow            = { version = "1.0"    }
+base64            = { version = "0.13"   }
+bytes             = { version = "1.0"    }
+ctr               = { version = "0.9"    }
+futures           = { version = "0.3"    }
+hmac              = { version = "0.12"   }
+lazy_static       = { version = "1.4"    }
+libc              = { version = "0.2"    }
+log               = { version = "0.4", features = ["std", "max_level_trace", "release_max_level_info"] }
+num_enum          = { version = "0.5"    }
+prost             = { version = "0.11"   }
+rand              = { version = "0.7", features = [] }
+regex-automata    = { version = "0.1.10" }
+hkdf              = { version = "0.12"   }
+serde_json        = { version = "1.0"    }
+serde             = { version = "1.0", features = ["derive"] }
+hex               = { version = "0.4", features = ["serde"] }
+sha2              = { version = "0.10"   }
+static_assertions = { version = "1.1.0"  }
+subtle            = { version = "2.3.0"  }
+thiserror         = { version = "1.0.20" }
+tokio             = { version = "1.13.0", features = ["rt-multi-thread", "time"] }
+x25519-dalek      = { version = "1.1"    }
+
+# Optional, needed by the 'sim' feature
+rand_chacha = { version = "0.2", optional = true }
+
+# Optional, needed by the "electron" feature
+neon = { version = "0.10.1", optional = true, default-features = false, features = ["napi-6", "channel-api"] }
+
+# Optional, needed to check Android-specific code when not targeting Android
+jni = { version = "0.19.0", optional = true, default-features = false }
+
+# Optional, needed by the "http" feature
+ureq = { version = "=2.2", optional = true }
+rustls = { version = "0.19.1", optional = true, features = ["dangerous_configuration"] }
+webpki = { version = "0.21", optional = true }
+
+[features]
+default = []
+sim = ["rand_chacha"]
+electron = ["neon", "native"]
+native = []  # We have this so we can more easily disable things only native clients need
+simnet = []  # We have this so we can more easily disable things only simulated native client need
+http = ["ureq", "rustls", "webpki"]
+check-all = ["electron", "jni"]
+
+[[test]]
+name = "incoming"
+path = "tests/incoming.rs"
+required-features = ["sim"]
+
+[[test]]
+name = "outgoing"
+path = "tests/outgoing.rs"
+required-features = ["sim"]
+
+[target.'cfg(target_os="android")'.dependencies]
+jni = { version = "0.19.0", default-features = false }
+
+[build-dependencies]
+prost-build = { version = "0.11" }
+
+[dev-dependencies]
+env_logger = { version = "0.9" }

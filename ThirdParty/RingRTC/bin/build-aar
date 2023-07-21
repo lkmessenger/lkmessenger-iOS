@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#
+# Copyright 2019-2021 Link Messenger, LLC
+# SPDX-License-Identifier: AGPL-3.0-only
+#
+
+set -e
+
+# shellcheck source=bin/env.sh
+. "$(dirname "$0")"/env.sh
+
+"${0}.py"                                  \
+    --build-dir="${OUTPUT_DIR}"            \
+    --webrtc-src-dir="${WEBRTC_SRC_DIR}"   \
+    --gradle-dir="${ANDROID_GRADLE_DIR}"   \
+    --publish-version="${PROJECT_VERSION}" \
+    "$@"

@@ -1,0 +1,64 @@
+name: RingRTC CI
+on:
+  push:
+    branches: [ main, 'staging/*' ]
+  pull_request: # all target branches
+
+jobs:
+  code_formatting:
+    name: Code Formatting
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: rustup toolchain install $(cat rust-toolchain) --profile minimal --component rustfmt
+    - name: Check rust format
+      run: cargo fmt -- --check
+      working-directory: src/rust
+    - name: Install for node
+      run: yarn install --frozen-lockfile
+      working-directory: src/node
+    - name: Check typescript format
+      run: yarn format -c
+      working-directory: src/node
+
+  lints:
+    name: Lints
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install protoc
+      run: sudo apt-get update && sudo apt-get install -y protobuf-compiler
+    - uses: actions/checkout@v3
+    - run: rustup toolchain install $(cat rust-toolchain) --profile minimal --component clippy --target aarch64-linux-android,aarch64-apple-ios
+    - run: shellcheck **/*.sh bin/build-aar bin/build-cli bin/build-electron bin/build-gctc bin/build-ios bin/build-javadoc bin/build-rustdoc bin/build-target bin/fetch-android-deps bin/gsync-webrtc bin/prepare-workspace bin/rust-lint-check src/rust/scripts/run-tests
+    - name: Clippy
+      run: cargo clippy --tests --features sim -- -D warnings
+      working-directory: src/rust
+    - name: Clippy (Android)
+      run: cargo clippy --target aarch64-linux-android -- -D warnings
+      working-directory: src/rust
+    - name: Clippy (iOS)
+      run: cargo clippy --target aarch64-apple-ios -- -D warnings
+      working-directory: src/rust
+    - name: Clippy (Electron)
+      run: cargo clippy --features electron -- -D warnings
+      working-directory: src/rust
+    - name: Clippy (gctc)
+      run: cargo clippy --bin gctc --features native,http -- -D warnings
+      working-directory: src/rust
+    - name: Install for node
+      run: yarn install --frozen-lockfile
+      working-directory: src/node
+    - name: Check typescript
+      run: yarn lint
+      working-directory: src/node
+
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install protoc
+      run: sudo apt-get update && sudo apt-get install -y protobuf-compiler
+    - uses: actions/checkout@v3
+    - run: rustup toolchain install $(cat rust-toolchain) --profile minimal
+    - name: Run rust tests
+      run: cd src/rust && ./scripts/run-tests
